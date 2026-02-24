@@ -21,10 +21,10 @@ https://www.bankofengland.co.uk/quarterly-bulletin/2013/q3/bank-capital-and-liqu
 
 ### Academic Papers
 
-**Berkeley, A., Considine, J., and Hail, S. (2025)**  
-"The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom"  
-*Journal of Economic Issues*, 59(3), 852-880  
-DOI: 10.1080/00213624.2025.XXXXXXX
+**Berkeley, A., Ryan-Collins, J., Voldsgaard, A., Tye, R., and Wilson, N. (2024)**
+"The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom"
+Available at SSRN: https://ssrn.com/abstract=4890683
+DOI: 10.2139/ssrn.4890683
 
 **Bell, S. (2000)**  
 "Do Taxes and Bonds Finance Government Spending?"  
@@ -212,7 +212,7 @@ ISBN: 978-0691176734
 
 ## Freedom of Information Requests
 
-Various FOI requests to HM Treasury and the Bank of England regarding government banking operations have informed this research. Key responses are available from the authors of Berkeley et al. (2025).
+Various FOI requests to HM Treasury and the Bank of England regarding government banking operations have informed this research. Key responses are available from the authors of Berkeley et al. (2024).
 
 ---
 
