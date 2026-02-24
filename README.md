@@ -1,26 +1,25 @@
-# Money Creation in the Modern Economy
+# The Money Myth
 
-A 40-minute briefing for policymakers and parliamentarians on how money creation actually works in the UK economy.
-
-## ðŸŽ¯ [View the Presentation](https://vg2000.github.io/money-presentation/money-creation-uk.html)
+A presentation challenging what we're told about public finances, explaining how money creation actually works in the UK economy.
 
 ## Overview
 
 This presentation explains:
 
-1. **What money actually is** â€” 97% of UK money is commercial bank deposits, not physical cash
-2. **How commercial banks create money** â€” through lending, not by intermediating deposits (debunking the "money multiplier" myth)
-3. **How government spending works** â€” the Consolidated Fund mechanism and why spending is operationally money creation
-4. **What taxation and debt issuance actually do** â€” taxation destroys money; debt issuance is a policy choice
-5. **Real vs perceived constraints** â€” inflation and resources matter; "affordability" doesn't
+1. **What money actually is** - fiat currency and how money actually works
+2. **Government vs. private sector** - why the currency issuer is fundamentally different
+3. **The role of taxation** - what taxes actually do (it's not funding spending)
+4. **Debt and deficits** - the private sector's savings explained
+5. **The lie and its costs** - why the myth persists and what it costs us
+6. **A better future** - the questions we should be asking
 
 ## Key Sources
 
 ### Primary Academic Sources
 
-- **Bank of England (2014)** â€” "[Money creation in the modern economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy)", *Quarterly Bulletin Q1 2014*
+- **Bank of England (2014)** - "[Money creation in the modern economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy)", *Quarterly Bulletin Q1 2014*
 
-- **Berkeley, A., Considine, J., and Hail, S. (2025)** â€” "The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom", *Journal of Economic Issues*, 59(3), 852-880
+- **Berkeley, A., Considine, J., and Hail, S. (2025)** - "The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom", *Journal of Economic Issues*, 59(3), 852-880
 
 ### Key UK Legislation
 
@@ -35,12 +34,12 @@ This presentation explains:
 
 | Key | Action |
 |-----|--------|
-| `â†’` `â†“` `Space` | Next slide |
-| `â†` `â†‘` | Previous slide |
-| `S` | Speaker view (notes + timer) |
-| `O` | Overview mode |
-| `F` | Fullscreen |
-| `Esc` | Exit fullscreen/overview |
+| Arrow right / down / Space | Next slide |
+| Arrow left / up | Previous slide |
+| S | Speaker view (notes + timer) |
+| O | Overview mode |
+| F | Fullscreen |
+| Esc | Exit fullscreen/overview |
 
 ### Speaker Notes
 
@@ -60,26 +59,26 @@ Press `S` to open the speaker view in a new window. This shows:
 ## Repository Structure
 
 ```
-sovereign-economics/
-â”œâ”€â”€ README.md                   # This file
-â”œâ”€â”€ LICENSE                     # MIT License
-â”œâ”€â”€ money-creation-uk.html      # The presentation
-â”œâ”€â”€ appendix/
-â”‚   â”œâ”€â”€ spending-accounting.md  # Table 1: Government spending transactions
-â”‚   â”œâ”€â”€ taxation-accounting.md  # Table 2: Taxation transactions
-â”‚   â””â”€â”€ glossary.md             # Key terms and definitions
-â””â”€â”€ sources/
-    â””â”€â”€ bibliography.md         # Full reference list
+money-general/
+    README.md                   # This file
+    LICENSE                     # MIT License
+    money-creation-uk.html      # The presentation
+    appendix/
+        spending-accounting.md  # Table 1: Government spending transactions
+        taxation-accounting.md  # Table 2: Taxation transactions
+        glossary.md             # Key terms and definitions
+    sources/
+        bibliography.md         # Full reference list
 ```
 
 ## Technical Details
 
-Built with [reveal.js](https://revealjs.com/) â€” a modern HTML presentation framework.
+Built with [reveal.js](https://revealjs.com/), a modern HTML presentation framework.
 
-- **No build step required** â€” just open the HTML file
-- **No dependencies to install** â€” libraries load from CDN
-- **Works offline** â€” after first load, browsers cache the CDN resources
-- **Mobile-friendly** â€” supports touch gestures
+- **No build step required** - just open the HTML file
+- **No dependencies to install** - libraries load from CDN
+- **Works offline** - after first load, browsers cache the CDN resources
+- **Mobile-friendly** - supports touch gestures
 
 ## Contributing
 
@@ -96,4 +95,4 @@ This presentation synthesises research from the Bank of England and academic eco
 ---
 
 *"The Government's banking arrangements... ensure that all expenditure authorized by Parliament can be settled."*
-â€” HM Treasury, FOI response 2020
+- HM Treasury, FOI response 2020
