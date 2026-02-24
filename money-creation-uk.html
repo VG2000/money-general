@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Money Myth — Welsh Greens</title>
+  <title>The Money Myth</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/white.min.css">
@@ -13,16 +13,16 @@
     :root {
       --r-background-color: #ffffff;
       --r-main-font: 'Inter', -apple-system, sans-serif;
-      --r-main-font-size: 30px;
+      --r-main-font-size: 26px;
       --r-main-color: #1c1c1c;
       --r-heading-font: 'Playfair Display', Georgia, serif;
-      --r-heading-color: #1a5c38;
+      --r-heading-color: #1e3a5f;
       --r-heading-font-weight: 700;
       --r-heading-text-transform: none;
-      --r-link-color: #1a5c38;
-      --green-dark:  #1a5c38;
-      --green-mid:   #2d7a4f;
-      --green-light: #e8f4ed;
+      --r-link-color: #1e3a5f;
+      --primary-dark:  #1e3a5f;
+      --primary-mid:   #2d5a8a;
+      --primary-light: #e8eef6;
       --amber:       #e8a020;
       --amber-light: #fef3dc;
       --muted:       #f4f4f4;
@@ -34,86 +34,86 @@
     }
     .reveal { font-weight: 400; }
     .reveal h1, .reveal h2, .reveal h3 { font-family: var(--r-heading-font); line-height: 1.15; }
-    .reveal h1 { font-size: 2.3em; }
-    .reveal h2 { font-size: 1.75em; margin-bottom: 0.45em; }
-    .reveal h3 { font-size: 1.2em; color: var(--green-dark); }
+    .reveal h1 { font-size: 2.1em; }
+    .reveal h2 { font-size: 1.55em; margin-bottom: 0.35em; }
+    .reveal h3 { font-size: 1.1em; color: var(--primary-dark); }
     .reveal p, .reveal li { line-height: 1.55; }
-    .reveal .slides section { text-align: left; padding: 22px 56px; }
-    .title-slide { text-align: center; background: linear-gradient(150deg, #1a5c38 0%, #2d7a4f 100%); }
+    .reveal .slides section { text-align: left; padding: 16px 36px; box-sizing: border-box; overflow: hidden; }
+    .title-slide { text-align: center; background: linear-gradient(150deg, #1e3a5f 0%, #2d5a8a 100%); }
     .title-slide h1, .title-slide h2, .title-slide p { color: white; }
     .title-slide h1 { font-size: 2.6em; margin-bottom: 0.25em; }
     .title-slide h2 { font-weight: 400; opacity: 0.88; font-size: 1.3em; }
     .title-slide .amber-bar { width: 100px; height: 5px; background: #e8a020; margin: 28px auto; border-radius: 2px; }
     .title-slide .subtitle { font-size: 0.85em; opacity: 0.65; margin-top: 36px; }
-    .section-header { text-align: center; background: #1a5c38; }
+    .section-header { text-align: center; background: #1e3a5f; }
     .section-header h2 { color: white; font-size: 2.1em; }
     .section-header .part-label { color: #e8a020; font-size: 0.65em; text-transform: uppercase; letter-spacing: 3px; font-family: var(--r-main-font); font-weight: 600; }
     .section-header .amber-bar { width: 70px; height: 3px; background: #e8a020; margin: 24px auto; border-radius: 2px; }
     .section-header p { color: rgba(255,255,255,0.7); font-size: 0.85em; margin-top: 16px; }
-    .columns { display: flex; gap: 36px; align-items: flex-start; }
-    .column { flex: 1; }
-    .col-narrow { flex: 0 0 280px; }
+    .columns { display: flex; gap: 24px; align-items: flex-start; }
+    .column { flex: 1; min-width: 0; }
+    .col-narrow { flex: 0 0 240px; }
     .col-wide { flex: 2; }
-    .card { background: #f4f4f4; border-radius: 10px; padding: 20px 22px; margin-bottom: 14px; }
-    .card-green { background: #e8f4ed; border-left: 4px solid #1a5c38; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-bottom: 14px; }
-    .card-amber { background: #fef3dc; border-left: 4px solid #e8a020; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-bottom: 14px; }
-    .card-red { background: #fdf0ef; border-left: 4px solid #c0392b; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-bottom: 14px; }
-    .card-dark { background: #1a5c38; color: white; border-radius: 10px; padding: 20px 22px; }
+    .card { background: #f4f4f4; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; }
+    .card-green { background: #e8eef6; border-left: 4px solid #1e3a5f; border-radius: 0 8px 8px 0; padding: 10px 14px; margin-bottom: 10px; }
+    .card-amber { background: #fef3dc; border-left: 4px solid #e8a020; border-radius: 0 8px 8px 0; padding: 10px 14px; margin-bottom: 10px; }
+    .card-red { background: #fdf0ef; border-left: 4px solid #c0392b; border-radius: 0 8px 8px 0; padding: 10px 14px; margin-bottom: 10px; }
+    .card-dark { background: #1e3a5f; color: white; border-radius: 10px; padding: 16px 18px; }
     .card-dark h3 { color: #e8a020; }
-    .highlight-box { background: #1a5c38; color: white; padding: 22px 26px; border-radius: 12px; margin: 18px 0; }
+    .highlight-box { background: #1e3a5f; color: white; padding: 16px 20px; border-radius: 12px; margin: 12px 0; }
     .highlight-box strong { color: #e8a020; }
-    .quote { background: #f4f4f4; padding: 22px 26px; border-left: 4px solid #1a5c38; border-radius: 0 8px 8px 0; font-style: italic; margin: 18px 0; }
+    .quote { background: #f4f4f4; padding: 14px 20px; border-left: 4px solid #1e3a5f; border-radius: 0 8px 8px 0; font-style: italic; margin: 12px 0; }
     .quote .source { font-style: normal; font-size: 0.8em; color: #555; margin-top: 10px; font-weight: 600; }
-    .stat-box { background: linear-gradient(135deg, #1a5c38 0%, #2d7a4f 100%); border-radius: 14px; padding: 36px; text-align: center; color: white; }
-    .stat-box .number { font-size: 3.8em; font-weight: 700; line-height: 1; font-family: var(--r-heading-font); }
+    .stat-box { background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8a 100%); border-radius: 14px; padding: 28px; text-align: center; color: white; }
+    .stat-box .number { font-size: 3.2em; font-weight: 700; line-height: 1; font-family: var(--r-heading-font); }
     .stat-box .label { font-size: 0.85em; opacity: 0.85; margin-top: 12px; }
-    .step { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 14px; }
-    .step-num { width: 34px; height: 34px; background: #1a5c38; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 0.75em; }
+    .step { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
+    .step-num { min-width: 30px; height: 30px; padding: 0 8px; background: #1e3a5f; color: white; border-radius: 999px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 0.7em; box-sizing: border-box; white-space: nowrap; }
     .step-num.amber { background: #e8a020; }
     .step-num.red { background: #c0392b; }
-    .step-body { flex: 1; background: #f4f4f4; padding: 12px 16px; border-radius: 8px; }
-    .step-body.green-bg { background: #e8f4ed; border: 1.5px solid #1a5c38; }
+    .step-body { flex: 1; background: #f4f4f4; padding: 8px 14px; border-radius: 8px; min-width: 0; }
+    .step-body.green-bg { background: #e8eef6; border: 1.5px solid #1e3a5f; }
     .step-body.amber-bg { background: #fef3dc; border: 1.5px solid #e8a020; }
     .badge { display: inline-block; padding: 4px 11px; border-radius: 4px; font-size: 0.65em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
     .badge-red   { background: #c0392b; color: white; }
-    .badge-green { background: #1a5c38; color: white; }
+    .badge-green { background: #1e3a5f; color: white; }
     .badge-amber { background: #e8a020; color: white; }
-    .compare-box { border-radius: 12px; padding: 22px; }
+    .compare-box { border-radius: 12px; padding: 16px; }
     .compare-box.user   { background: #fdf0ef; border: 2px solid #c0392b; }
-    .compare-box.issuer { background: #e8f4ed; border: 2px solid #1a5c38; }
+    .compare-box.issuer { background: #e8eef6; border: 2px solid #1e3a5f; }
     .compare-box .compare-title { font-size: 1.05em; font-weight: 700; margin-bottom: 14px; }
     .compare-box.user .compare-title   { color: #c0392b; }
-    .compare-box.issuer .compare-title { color: #1a5c38; }
+    .compare-box.issuer .compare-title { color: #1e3a5f; }
     .compare-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.8em; text-align: left; }
     .compare-icon { width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85em; flex-shrink: 0; font-weight: 700; }
     .compare-icon.x  { background: #c0392b; color: white; }
-    .compare-icon.ok { background: #1a5c38; color: white; }
-    .takeaway { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px; }
-    .takeaway-num { width: 32px; height: 32px; background: #e8a020; color: white; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 0.9em; }
-    .takeaway-body { flex: 1; background: #f4f4f4; padding: 12px 16px; border-radius: 8px; }
+    .compare-icon.ok { background: #1e3a5f; color: white; }
+    .takeaway { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 8px; }
+    .takeaway-num { width: 28px; height: 28px; background: #e8a020; color: white; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 0.8em; }
+    .takeaway-body { flex: 1; background: #f4f4f4; padding: 8px 14px; border-radius: 8px; }
     .takeaway-body.highlighted { background: #fef3dc; border: 1.5px solid #e8a020; }
-    .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 10px 0; }
-    .news-card { background: white; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px; font-size: 0.68em; box-shadow: 1px 2px 4px rgba(0,0,0,0.07); }
-    .news-card .headline { font-weight: 700; color: #1c1c1c; margin-bottom: 5px; line-height: 1.3; }
-    .news-card .outlet { color: #555; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.3px; }
-    .news-card .cost-tag { display: inline-block; background: #c0392b; color: white; border-radius: 3px; font-size: 0.8em; padding: 2px 6px; margin-top: 5px; font-weight: 600; }
-    .crossroads { display: flex; gap: 20px; align-items: stretch; margin-top: 16px; }
-    .road { flex: 1; border-radius: 10px; padding: 18px 20px; }
+    .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 8px 0; }
+    .news-card { background: #edf1f5; border-top: 3px solid #1e3a5f; padding: 10px 12px; font-size: 0.62em; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column; }
+    .news-card .headline { font-weight: 700; color: #1a1a1a; margin-bottom: 6px; line-height: 1.3; font-family: Georgia, serif; font-size: 1.05em; flex: 1; }
+    .news-card .outlet { color: #1e3a5f; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 700; margin-bottom: 6px; padding-bottom: 5px; border-bottom: 1px solid #ddd; }
+    .news-card .cost-tag { display: inline-block; background: #c0392b; color: white; border-radius: 2px; font-size: 0.75em; padding: 2px 8px; margin-top: auto; font-weight: 600; letter-spacing: 0.3px; align-self: flex-start; }
+    .crossroads { display: flex; gap: 16px; align-items: stretch; margin-top: 12px; }
+    .road { flex: 1; border-radius: 10px; padding: 14px 16px; }
     .road.left  { background: #fdf0ef; border: 2px solid #c0392b; }
-    .road.right { background: #e8f4ed; border: 2px solid #1a5c38; }
+    .road.right { background: #e8eef6; border: 2px solid #1e3a5f; }
     .road h3 { margin-top: 0; margin-bottom: 10px; font-family: var(--r-heading-font); }
     .road.left  h3 { color: #c0392b; }
-    .road.right h3 { color: #1a5c38; }
+    .road.right h3 { color: #1e3a5f; }
     .flow { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
-    .flow-box { background: white; border: 1.5px solid #ddd; padding: 12px; border-radius: 8px; text-align: center; min-width: 110px; }
+    .flow-box { background: #f0f4f8; border: 1.5px solid #d0d8e0; padding: 8px 10px; border-radius: 8px; text-align: center; min-width: 100px; }
     .flow-box.amber-box { background: #fef3dc; border-color: #e8a020; }
     .flow-box .amount { font-size: 1.1em; font-weight: 700; }
-    .flow-arrow { font-size: 1.5em; color: #1a5c38; }
-    .footnote { position: absolute; bottom: 16px; left: 56px; right: 56px; font-size: 0.52em; color: #555; }
+    .flow-arrow { font-size: 1.5em; color: #1e3a5f; }
+    .footnote { position: absolute; bottom: 12px; left: 36px; right: 36px; font-size: 0.52em; color: rgba(255,255,255,0.7); }
     .small   { font-size: 0.82em; }
     .smaller { font-size: 0.72em; }
     .muted   { color: #555; }
-    .chart-container { position: relative; width: 100%; height: 320px; }
+    .chart-container { position: relative; width: 100%; height: 280px; }
   </style>
 </head>
 <body>
@@ -126,7 +126,7 @@
   <h1>The Money Myth</h1>
   <h2>How and Why Politicians Mislead Us About Public Finances</h2>
   <div class="amber-bar"></div>
-  <p class="subtitle">A presentation for the Welsh Greens</p>
+  <p class="subtitle">Challenging what we're told about public finances</p>
   <aside class="notes">Welcome. This talk challenges one of the most persistent and damaging myths in modern politics: that government money works like a household budget. By the end, I hope to show you not only that this is wrong, but why certain interests have a stake in keeping us confused.</aside>
 </section>
 
@@ -142,7 +142,7 @@
     <p class="source">— John Kenneth Galbraith, <em>Money</em>, 1975</p>
   </div>
   <div class="highlight-box">
-    <strong>Today's argument:</strong> Thatcher's quote is not just wrong — it is the opposite of the truth. And Galbraith explains exactly why that confusion is so persistent.
+    <strong>Today's argument:</strong> Thatcher's quote is not just wrong. It is the opposite of the truth. And Galbraith explains exactly why that confusion is so persistent.
   </div>
   <aside class="notes">Thatcher's famous phrase is rhetorically powerful but factually backwards. Galbraith's insight is that the complexity of monetary economics is often weaponised deliberately. Our job today is to cut through that complexity.</aside>
 </section>
@@ -152,22 +152,22 @@
   <h2>Presentation Outline</h2>
   <div class="columns">
     <div class="col-wide">
-      <div class="step"><div class="step-num">1</div><div class="step-body"><strong>What is money?</strong> — Fiat currency and how money actually works</div></div>
-      <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Government vs. private sector</strong> — Why the currency issuer is fundamentally different</div></div>
-      <div class="step"><div class="step-num">3</div><div class="step-body"><strong>The role of taxation</strong> — What taxes actually do (it's not funding spending)</div></div>
-      <div class="step"><div class="step-num">4</div><div class="step-body"><strong>Debt and deficits</strong> — The private sector's savings explained</div></div>
-      <div class="step"><div class="step-num amber">5</div><div class="step-body amber-bg"><strong>The lie and its costs</strong> — Why the myth persists and what it costs us</div></div>
-      <div class="step"><div class="step-num" style="background:#1a5c38;">6</div><div class="step-body green-bg"><strong>A better future</strong> — The questions we should be asking</div></div>
+      <div class="step"><div class="step-num">1</div><div class="step-body"><strong>What is money?</strong> Fiat currency and how money actually works</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Government vs. private sector</strong> Why the currency issuer is fundamentally different</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-body"><strong>The role of taxation</strong> What taxes actually do (it's not funding spending)</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-body"><strong>Debt and deficits</strong> The private sector's savings explained</div></div>
+      <div class="step"><div class="step-num amber">5</div><div class="step-body amber-bg"><strong>The lie and its costs</strong> Why the myth persists and what it costs us</div></div>
+      <div class="step"><div class="step-num" style="background:#1e3a5f;">6</div><div class="step-body green-bg"><strong>A better future</strong> The questions we should be asking</div></div>
     </div>
     <div class="col-narrow">
       <div class="card">
         <p class="smaller muted" style="text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">Duration</p>
-        <p style="font-size: 2.2em; font-weight: 700; color: #1a5c38; margin: 0;">~35 min</p>
+        <p style="font-size: 2.2em; font-weight: 700; color: #1e3a5f; margin: 0;">~25 min</p>
         <p class="smaller muted" style="margin-top: 12px;">Followed by Q&amp;A. No economics degree required.</p>
       </div>
     </div>
   </div>
-  <aside class="notes">We have six sections. I want to reassure you — this is not complicated economics. The ideas are quite intuitive once you see past the myths.</aside>
+  <aside class="notes">We have six sections. I want to reassure you: this is not complicated economics. The ideas are quite intuitive once you see past the myths.</aside>
 </section>
 
 <!-- SECTION 1 HEADER -->
@@ -185,12 +185,12 @@
   <div class="columns">
     <div class="col-wide">
       <div class="card-amber" style="margin-bottom: 18px;">
-        <p><strong>Fiat</strong> is Latin for "it shall be." The pound has value because the UK government decrees it — not because it is backed by gold or any physical commodity.</p>
+        <p><strong>Fiat</strong> is Latin for "it shall be." The pound has value because the UK government decrees it, not because it is backed by gold or any physical commodity.</p>
       </div>
-      <div class="step"><div class="step-num">1931</div><div class="step-body">UK leaves the gold standard — the pound no longer redeemable for gold</div></div>
-      <div class="step"><div class="step-num">1971</div><div class="step-body">US ends Bretton Woods — the last link between major currencies and gold is severed globally</div></div>
+      <div class="step"><div class="step-num">1931</div><div class="step-body">UK leaves the gold standard. The pound is no longer redeemable for gold</div></div>
+      <div class="step"><div class="step-num">1971</div><div class="step-body">US ends Bretton Woods. The last link between major currencies and gold is severed globally</div></div>
       <div class="step"><div class="step-num amber">Now</div><div class="step-body amber-bg">Money in the UK economy is <strong>previous government spending that has not been removed via taxation</strong></div></div>
-      <div class="card-green" style="margin-top: 16px;"><p class="small">Private citizens cannot create money — that is called counterfeiting. Only the currency issuer can.</p></div>
+      <div class="card-green" style="margin-top: 16px;"><p class="small">Private citizens cannot create money. That is called counterfeiting. Only the currency issuer can.</p></div>
     </div>
     <div class="col-narrow">
       <div class="stat-box">
@@ -208,33 +208,138 @@
   <h2>The Economy as a Bathtub</h2>
   <div class="columns" style="align-items: center;">
     <div class="column">
-      <svg viewBox="0 0 400 300" style="width:100%; max-height: 270px;">
+      <svg viewBox="0 0 420 380" style="width:100%; max-height: 280px;">
         <defs>
-          <marker id="arrowG" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1a5c38"/></marker>
-          <marker id="arrowR" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#c0392b"/></marker>
+          <!-- Water gradient -->
+          <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#4a90c4" stop-opacity="0.5"/>
+            <stop offset="100%" stop-color="#2d5a8a" stop-opacity="0.8"/>
+          </linearGradient>
+          <!-- Tub gradient for 3D effect -->
+          <linearGradient id="tubGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#c8d6e5"/>
+            <stop offset="50%" stop-color="#e8eef6"/>
+            <stop offset="100%" stop-color="#c8d6e5"/>
+          </linearGradient>
+          <!-- Chrome/metal gradient for faucet -->
+          <linearGradient id="chromeGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#7a8fa3"/>
+            <stop offset="30%" stop-color="#b0bec5"/>
+            <stop offset="50%" stop-color="#cfd8dc"/>
+            <stop offset="70%" stop-color="#b0bec5"/>
+            <stop offset="100%" stop-color="#7a8fa3"/>
+          </linearGradient>
+          <linearGradient id="chromeV" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#b0bec5"/>
+            <stop offset="50%" stop-color="#cfd8dc"/>
+            <stop offset="100%" stop-color="#90a4ae"/>
+          </linearGradient>
+          <!-- Water stream -->
+          <linearGradient id="streamGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#4a90c4" stop-opacity="0.15"/>
+            <stop offset="50%" stop-color="#4a90c4" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#4a90c4" stop-opacity="0.15"/>
+          </linearGradient>
+          <!-- Overflow splash -->
+          <radialGradient id="splashGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#e8a020" stop-opacity="0.7"/>
+            <stop offset="100%" stop-color="#e8a020" stop-opacity="0"/>
+          </radialGradient>
         </defs>
-        <rect x="40" y="100" width="320" height="160" rx="20" fill="#d9ede1" stroke="#1a5c38" stroke-width="2.5"/>
-        <rect x="42" y="175" width="316" height="83" rx="15" fill="#2d7a4f" opacity="0.65"/>
-        <rect x="150" y="38" width="100" height="28" rx="6" fill="#1a5c38"/>
-        <text x="200" y="57" text-anchor="middle" fill="white" font-size="10" font-family="Inter,sans-serif" font-weight="600">GOV'T SPENDING</text>
-        <line x1="200" y1="66" x2="200" y2="100" stroke="#1a5c38" stroke-width="2.5" marker-end="url(#arrowG)"/>
-        <rect x="150" y="262" width="100" height="26" rx="6" fill="#c0392b"/>
-        <text x="200" y="279" text-anchor="middle" fill="white" font-size="10" font-family="Inter,sans-serif" font-weight="600">TAXATION</text>
-        <line x1="200" y1="261" x2="200" y2="249" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrowR)"/>
-        <text x="200" y="222" text-anchor="middle" fill="white" font-size="13" font-family="Georgia,serif" font-weight="700">MONEY SUPPLY</text>
-        <rect x="355" y="135" width="45" height="22" rx="4" fill="#e8a020"/>
-        <text x="378" y="150" text-anchor="middle" fill="white" font-size="9" font-family="Inter,sans-serif" font-weight="600">INFLATION</text>
-        <text x="374" y="163" text-anchor="middle" fill="#7a5000" font-size="8" font-family="Inter,sans-serif">(overflow)</text>
+
+        <!-- === FAUCET === -->
+        <!-- Wall pipe (vertical) -->
+        <rect x="137" y="18" width="16" height="50" rx="3" fill="url(#chromeV)" stroke="#78909c" stroke-width="1"/>
+        <!-- Horizontal arm -->
+        <rect x="137" y="18" width="75" height="14" rx="4" fill="url(#chromeGrad)" stroke="#78909c" stroke-width="1"/>
+        <!-- Spout (downward curved) -->
+        <path d="M200,25 Q215,25 215,42 L215,58 Q215,64 210,64 L206,64 Q201,64 201,58 L201,42 Q201,32 200,25Z" fill="url(#chromeV)" stroke="#78909c" stroke-width="0.8"/>
+        <!-- Handle -->
+        <circle cx="145" cy="22" r="7" fill="url(#chromeV)" stroke="#78909c" stroke-width="1"/>
+        <rect x="140" y="8" width="10" height="14" rx="3" fill="url(#chromeGrad)" stroke="#78909c" stroke-width="0.8"/>
+
+        <!-- Water stream from faucet -->
+        <path d="M204,64 Q206,80 207,100 L207,148 Q207,152 208,155 L200,155 Q201,152 201,148 L201,100 Q202,80 204,64Z" fill="url(#streamGrad)" opacity="0.9"/>
+        <!-- Water drip highlights -->
+        <ellipse cx="205" cy="72" rx="2" ry="3" fill="#4a90c4" opacity="0.3"/>
+        <ellipse cx="204" cy="88" rx="1.5" ry="2.5" fill="#4a90c4" opacity="0.25"/>
+
+        <!-- Label: GOV'T SPENDING -->
+        <text x="145" y="8" text-anchor="middle" fill="#1e3a5f" font-size="10" font-family="Inter,sans-serif" font-weight="700">GOV'T SPENDING</text>
+
+        <!-- === BATHTUB === -->
+        <!-- Tub body — rounded U shape -->
+        <path d="M55,120 L55,230 Q55,268 95,268 L315,268 Q355,268 355,230 L355,120Z" fill="url(#tubGrad)" stroke="#8a9db5" stroke-width="2.5"/>
+        <!-- Tub rim (lip) -->
+        <path d="M40,118 Q40,108 55,108 L355,108 Q370,108 370,118 L370,128 Q370,133 355,133 L55,133 Q40,133 40,128Z" fill="#b0bec5" stroke="#8a9db5" stroke-width="1.5"/>
+        <!-- Inner rim highlight -->
+        <path d="M55,133 L355,133 L355,138 Q355,140 350,140 L60,140 Q55,140 55,138Z" fill="#90a4ae" opacity="0.4"/>
+
+        <!-- Claw feet -->
+        <ellipse cx="85" cy="274" rx="12" ry="6" fill="#8a9db5"/>
+        <path d="M78,268 Q80,280 85,280 Q90,280 92,268" fill="#90a4ae" stroke="#78909c" stroke-width="1"/>
+        <ellipse cx="325" cy="274" rx="12" ry="6" fill="#8a9db5"/>
+        <path d="M318,268 Q320,280 325,280 Q330,280 332,268" fill="#90a4ae" stroke="#78909c" stroke-width="1"/>
+
+        <!-- === WATER LEVEL === -->
+        <!-- Water body -->
+        <path d="M58,170 L58,228 Q58,264 96,264 L314,264 Q352,264 352,228 L352,170Z" fill="url(#waterGrad)"/>
+        <!-- Water surface with wave effect -->
+        <path d="M58,170 Q100,163 145,170 Q190,177 235,170 Q280,163 325,170 Q340,173 352,170" fill="none" stroke="#4a90c4" stroke-width="1.5" opacity="0.6"/>
+        <!-- Water surface fill (above wave) -->
+        <path d="M58,170 Q100,163 145,170 Q190,177 235,170 Q280,163 325,170 Q340,173 352,170 L352,175 Q340,178 325,175 Q280,168 235,175 Q190,182 145,175 Q100,168 58,175Z" fill="#4a90c4" opacity="0.15"/>
+
+        <!-- Money Supply label on water -->
+        <text x="205" y="225" text-anchor="middle" fill="white" font-size="14" font-family="Georgia,serif" font-weight="700" opacity="0.95">MONEY SUPPLY</text>
+
+        <!-- === DRAIN === -->
+        <!-- Drain circle on tub floor -->
+        <circle cx="205" cy="258" r="10" fill="#555" stroke="#333" stroke-width="1.5"/>
+        <!-- Drain grate lines -->
+        <line x1="199" y1="253" x2="211" y2="263" stroke="#777" stroke-width="0.8"/>
+        <line x1="199" y1="258" x2="211" y2="258" stroke="#777" stroke-width="0.8"/>
+        <line x1="199" y1="263" x2="211" y2="253" stroke="#777" stroke-width="0.8"/>
+        <!-- Drain pipe going down -->
+        <rect x="199" y="268" width="12" height="36" rx="2" fill="#888" stroke="#666" stroke-width="1"/>
+        <!-- Drain water inside pipe -->
+        <rect x="201" y="270" width="8" height="34" rx="1" fill="#4a90c4" opacity="0.4"/>
+
+        <!-- Water pouring out of drain -->
+        <path d="M201,304 Q200,310 198,318 Q196,328 193,340" fill="none" stroke="#4a90c4" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+        <path d="M209,304 Q210,312 212,320 Q214,330 217,340" fill="none" stroke="#4a90c4" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+        <path d="M205,304 Q205,314 205,325 Q205,335 205,345" fill="none" stroke="#4a90c4" stroke-width="2.5" opacity="0.45" stroke-linecap="round"/>
+        <!-- Drain water droplets -->
+        <ellipse cx="192" cy="344" rx="2.5" ry="3.5" fill="#4a90c4" opacity="0.4"/>
+        <ellipse cx="205" cy="350" rx="2" ry="3" fill="#4a90c4" opacity="0.35"/>
+        <ellipse cx="218" cy="346" rx="2.5" ry="3.5" fill="#4a90c4" opacity="0.4"/>
+        <!-- Small splash at bottom -->
+        <ellipse cx="205" cy="355" rx="18" ry="4" fill="#4a90c4" opacity="0.15"/>
+
+        <!-- Label: TAXATION -->
+        <text x="205" y="370" text-anchor="middle" fill="#c0392b" font-size="10" font-family="Inter,sans-serif" font-weight="700">TAXATION</text>
+
+        <!-- === INFLATION OVERFLOW === -->
+        <!-- Overflow water splashing over the right rim -->
+        <path d="M352,125 Q358,120 365,130 Q372,142 378,135 Q382,128 385,140" fill="none" stroke="#e8a020" stroke-width="2" opacity="0.7"/>
+        <path d="M354,130 Q360,125 367,138 Q370,148 376,142" fill="none" stroke="#e8a020" stroke-width="1.5" opacity="0.5"/>
+        <!-- Splash droplets -->
+        <circle cx="380" cy="128" r="3" fill="#e8a020" opacity="0.5"/>
+        <circle cx="387" cy="140" r="2" fill="#e8a020" opacity="0.4"/>
+        <circle cx="374" cy="118" r="2.5" fill="#e8a020" opacity="0.45"/>
+
+        <!-- Label: INFLATION -->
+        <text x="388" y="160" text-anchor="middle" fill="#e8a020" font-size="9.5" font-family="Inter,sans-serif" font-weight="700">INFLATION</text>
+        <text x="388" y="171" text-anchor="middle" fill="#b07810" font-size="8" font-family="Inter,sans-serif">(overflow)</text>
       </svg>
     </div>
     <div class="column">
-      <div class="card-green" style="margin-bottom: 14px;"><p class="small"><strong style="color:#1a5c38;">Government Spending (the tap)</strong><br>Adds money to the economy</p></div>
+      <div class="card-green" style="margin-bottom: 14px;"><p class="small"><strong style="color:#1e3a5f;">Government Spending (the tap)</strong><br>Adds money to the economy</p></div>
       <div class="card-red" style="margin-bottom: 14px;"><p class="small"><strong style="color:#c0392b;">Taxation (the drain)</strong><br>Removes money from the economy</p></div>
-      <div class="card-amber"><p class="small"><strong>Inflation (overflow)</strong><br>Too much money chasing too few goods — the tap running faster than the drain can handle</p></div>
-      <div class="card" style="margin-top: 14px;"><p class="small muted"><strong>The bath cannot "run out of water"</strong> — government is the source of the water. The challenge is managing the level.</p></div>
+      <div class="card-amber"><p class="small"><strong>Inflation (overflow)</strong><br>Too much money chasing too few goods. The tap running faster than the drain can handle</p></div>
+      <div class="card" style="margin-top: 14px;"><p class="small muted"><strong>The bath cannot "run out of water"</strong> because government is the source of the water. The challenge is managing the level.</p></div>
     </div>
   </div>
-  <aside class="notes">The bathtub metaphor captures the basics. Government spending fills the bath; taxation drains it. The risk isn't running out — it's overflow (inflation). The bath cannot run dry because government creates the water.</aside>
+  <aside class="notes">The bathtub metaphor captures the basics. Government spending fills the bath; taxation drains it. The risk isn't running out, it's overflow (inflation). The bath cannot run dry because government creates the water.</aside>
 </section>
 
 <!-- SECTION 2 HEADER -->
@@ -259,7 +364,7 @@
       <div class="compare-row"><div class="compare-icon x">✕</div><span>Saving means less spending today</span></div>
       <div class="compare-row"><div class="compare-icon x">✕</div><span>Budget must balance over time</span></div>
     </div>
-    <div style="display: flex; align-items: center; font-size: 2.5em; color: #1a5c38; font-weight: 900;">≠</div>
+    <div style="display: flex; align-items: center; font-size: 2.5em; color: #1e3a5f; font-weight: 900;">≠</div>
     <div class="compare-box issuer">
       <p class="compare-title">🏛️ UK Government (Currency Issuer)</p>
       <div class="compare-row"><div class="compare-icon ok">✓</div><span>Creates money by spending via Parliament</span></div>
@@ -270,26 +375,26 @@
     </div>
   </div>
   <div class="highlight-box" style="margin-top: 18px;">
-    <strong>Key insight:</strong> When politicians compare government finances to a household budget, they are making a fundamental category error. The comparison is not just misleading — it is backwards.
+    <strong>Key insight:</strong> When politicians compare government finances to a household budget, they are making a fundamental category error. The comparison is not just misleading, it is backwards.
   </div>
-  <aside class="notes">Every household analogy breaks down here. A household genuinely must balance its books over time. The currency issuer operates by entirely different rules. Mixing these up — deliberately or through ignorance — produces profoundly bad policy.</aside>
+  <aside class="notes">Every household analogy breaks down here. A household genuinely must balance its books over time. The currency issuer operates by entirely different rules. Mixing these up, whether deliberately or through ignorance, produces profoundly bad policy.</aside>
 </section>
 
 <!-- SLIDE 7: The 1866 Act -->
 <section>
   <h2>How Government Spending Actually Works</h2>
   <div class="card-amber" style="margin-bottom: 18px;">
-    <p class="small"><strong>The Exchequer and Audit Departments Act 1866</strong> establishes the legal framework. This is not modern theory — it predates modern economics entirely.</p>
+    <p class="small"><strong>The Exchequer and Audit Departments Act 1866</strong> establishes the legal framework. This is not modern theory. It predates modern economics entirely.</p>
   </div>
   <div class="step"><div class="step-num">1</div><div class="step-body"><strong>Parliament votes</strong> to approve spending estimates each year via the Budget and Appropriation Acts</div></div>
-  <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Spending is authorised</strong> — departments receive legal authority to access the Consolidated Fund</div></div>
-  <div class="step"><div class="step-num">3</div><div class="step-body"><strong>Money is created</strong> — the Bank of England credits accounts; new money enters the economy</div></div>
-  <div class="step"><div class="step-num amber">4</div><div class="step-body amber-bg"><strong>Taxes collected later</strong> drain some of that money back — reducing the money supply</div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Spending is authorised</strong> and departments receive legal authority to access the Consolidated Fund</div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><strong>Money is created:</strong> the Bank of England credits accounts and new money enters the economy</div></div>
+  <div class="step"><div class="step-num amber">4</div><div class="step-body amber-bg"><strong>Taxes collected later</strong> drain some of that money back, reducing the money supply</div></div>
   <div class="highlight-box">
-    <strong>Every Budget, bank bailout, war and Covid relief scheme</strong> was provisioned by being voted into existence by MPs — not funded by prior tax collections.
+    <strong>Every Budget, bank bailout, war and Covid relief scheme</strong> was provisioned by being voted into existence by MPs, not funded by prior tax collections.
+    <p style="margin-top: 10px; font-size: 0.6em; opacity: 0.7; font-style: italic;">Exchequer and Audit Departments Act 1866, s.11. This is not MMT. It predates the theory by over 130 years.</p>
   </div>
-  <p class="footnote">Exchequer and Audit Departments Act 1866, s.11. This is not MMT — it predates the theory by over 130 years.</p>
-  <aside class="notes">The mechanism is enshrined in Victorian legislation. Parliament votes spending into existence. The Bank of England executes it. Taxes come later. This is institutional reality — not controversial theory.</aside>
+  <aside class="notes">The mechanism is enshrined in Victorian legislation. Parliament votes spending into existence. The Bank of England executes it. Taxes come later. This is institutional reality, not controversial theory.</aside>
 </section>
 
 <!-- SECTION 3 HEADER -->
@@ -297,7 +402,7 @@
   <p class="part-label">Part Three</p>
   <h2>The Role of Taxation</h2>
   <div class="amber-bar"></div>
-  <p>What taxes actually do — and what they don't</p>
+  <p>What taxes actually do, and what they don't</p>
   <aside class="notes">If taxes don't fund spending, what do they do? The answer is more interesting and more important than the conventional story.</aside>
 </section>
 
@@ -306,13 +411,13 @@
   <h2>What Taxation Actually Does</h2>
   <div class="columns">
     <div class="col-wide">
-      <div class="card-red" style="margin-bottom: 16px;"><p><span class="badge badge-red">Myth</span></p><p class="small">Taxes fund government spending — the government collects money from us and then spends it.</p></div>
+      <div class="card-red" style="margin-bottom: 16px;"><p><span class="badge badge-red">Myth</span></p><p class="small">Taxes fund government spending. The government collects money from us and then spends it.</p></div>
       <div class="card-green" style="margin-bottom: 16px;"><p><span class="badge badge-green">Reality</span></p><p class="small">Government spends first (creating money), then taxes remove some of that money to prevent inflation.</p></div>
       <p><strong>Taxes perform several crucial functions:</strong></p>
-      <div class="step" style="margin-top: 12px;"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Control inflation</strong> — remove money from circulation</div></div>
-      <div class="step"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Reduce inequality</strong> — redistribute purchasing power</div></div>
-      <div class="step"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Shape behaviour</strong> — discourage harmful activities (tobacco, carbon)</div></div>
-      <div class="step"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Give the currency value</strong> — requiring taxes be paid in pounds creates demand for pounds</div></div>
+      <div class="step" style="margin-top: 12px;"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Control inflation</strong> by removing money from circulation</div></div>
+      <div class="step"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Reduce inequality</strong> by redistributing purchasing power</div></div>
+      <div class="step"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Shape behaviour</strong> by discouraging harmful activities (tobacco, carbon)</div></div>
+      <div class="step"><div class="step-num" style="font-size: 0.8em;">→</div><div class="step-body"><strong>Give the currency value</strong> because requiring taxes in pounds creates demand for pounds</div></div>
     </div>
     <div class="col-narrow">
       <div class="card-dark">
@@ -324,7 +429,7 @@
       </div>
     </div>
   </div>
-  <aside class="notes">Taxation is not the source of government spending — it is the mechanism by which government manages the money supply it has already created. The sequencing is: spend first, tax later.</aside>
+  <aside class="notes">Taxation is not the source of government spending. It is the mechanism by which government manages the money supply it has already created. The sequencing is: spend first, tax later.</aside>
 </section>
 
 <!-- SLIDE 9: Tax flow -->
@@ -336,16 +441,16 @@
     <div class="flow-arrow">→</div>
     <div class="flow-box"><p class="smaller muted">Your Bank</p><p class="amount" style="color:#c0392b;">−£100</p><p class="smaller muted">reserves to HMRC</p></div>
     <div class="flow-arrow">→</div>
-    <div class="flow-box"><p class="smaller muted">HMRC → BoE</p><p class="amount" style="color:#1a5c38;">+£100</p><p class="smaller muted">govt account</p></div>
+    <div class="flow-box"><p class="smaller muted">HMRC → BoE</p><p class="amount" style="color:#1e3a5f;">+£100</p><p class="smaller muted">govt account</p></div>
     <div class="flow-arrow">→</div>
     <div class="flow-box amber-box"><p class="smaller muted">Consolidated Fund</p><p class="amount" style="color:#e8a020;">Offsets</p><p class="smaller muted">prior spending</p></div>
   </div>
-  <div class="columns" style="gap: 18px;">
-    <div class="card-green column"><p class="small"><strong>Net result:</strong> £100 of money has been <em>destroyed</em>. It no longer exists in the economy as a private sector asset.</p></div>
-    <div class="card-amber column"><p class="small"><strong>Sequencing matters:</strong> The government spent first, creating the £100. Your tax payment cancels out that earlier creation.</p></div>
+  <div class="columns" style="gap: 18px; align-items: stretch;">
+    <div class="card-green column" style="display:flex; align-items:center;"><p class="small"><strong>Net result:</strong> £100 of money has been <em>destroyed</em>. It no longer exists in the economy as a private sector asset.</p></div>
+    <div class="card-amber column" style="display:flex; align-items:center;"><p class="small"><strong>Sequencing matters:</strong> The government spent first, creating the £100. Your tax payment cancels out that earlier creation.</p></div>
   </div>
-  <div class="quote" style="margin-top: 16px;"><p class="small">UK GDP is approximately £2.5 trillion. Government spending is roughly 45% — around £1.25 trillion. That is the scale of money being created and managed each year.</p><p class="source">— ONS National Accounts</p></div>
-  <aside class="notes">When you pay tax, money genuinely disappears from the economy. The government does not put it in a pot to spend later. This is why reducing deficits during weak demand is often counterproductive — it removes more money than was added.</aside>
+  <div class="quote" style="margin-top: 16px;"><p class="small">UK GDP is approximately £2.5 trillion. Government spending is roughly 45%, around £1.25 trillion. That is the scale of money being created and managed each year.</p><p class="source">ONS National Accounts</p></div>
+  <aside class="notes">When you pay tax, money genuinely disappears from the economy. The government does not put it in a pot to spend later. This is why reducing deficits during weak demand is often counterproductive: it removes more money than was added.</aside>
 </section>
 
 <!-- SECTION 4 HEADER -->
@@ -354,20 +459,20 @@
   <h2>Debt &amp; Deficits</h2>
   <div class="amber-bar"></div>
   <p>The private sector's savings, explained</p>
-  <aside class="notes">Now let's tackle the most politically charged topic — government deficits and the national debt. These are almost universally misrepresented in public debate.</aside>
+  <aside class="notes">Now let's tackle the most politically charged topic: government deficits and the national debt. These are almost universally misrepresented in public debate.</aside>
 </section>
 
 <!-- SLIDE 10: Sectoral balances chart -->
 <section>
   <h2>What Are Government Deficits?</h2>
-  <p class="small muted" style="margin-bottom: 8px;">UK Sectoral Balances as % of GDP, 1987–2024 — sectors sum to zero by accounting identity</p>
+  <p class="small muted" style="margin-bottom: 8px;">UK Sectoral Balances as % of GDP, 1987–2024. Sectors sum to zero by accounting identity</p>
   <div class="chart-container"><canvas id="sectoralChart"></canvas></div>
   <div class="columns" style="margin-top: 10px; gap: 16px;">
     <div class="card-green column"><p class="small"><strong>Government deficit = private sector surplus.</strong> Every pound the government "overspends" is a pound of net financial assets held by the private sector.</p></div>
     <div class="card-amber column"><p class="small"><strong>A government surplus forces the private sector into deficit.</strong> The 1999–2000 Blair surplus preceded a private debt binge.</p></div>
   </div>
-  <p class="footnote">Source: ONS. Note 2009 and 2020 surges in private saving correspond to financial crisis and Covid — requiring matching government deficits.</p>
-  <aside class="notes">National accounts must balance by definition. If the government runs a deficit, the non-government sector must run a surplus of exactly the same amount. A government surplus forces the private sector into deficit. The 2009 and 2020 spikes show massive private saving during crises — the government deficit was the counterpart.</aside>
+  <p style="font-size: 0.52em; color: #777; margin-top: 8px; font-style: italic;">Source: ONS. Note 2009 and 2020 surges in private saving correspond to financial crisis and Covid, requiring matching government deficits.</p>
+  <aside class="notes">National accounts must balance by definition. If the government runs a deficit, the non-government sector must run a surplus of exactly the same amount. A government surplus forces the private sector into deficit. The 2009 and 2020 spikes show massive private saving during crises, and the government deficit was the counterpart.</aside>
 </section>
 
 <!-- SLIDE 11: National debt -->
@@ -377,30 +482,30 @@
     <div class="col-wide">
       <div class="card-amber" style="margin-bottom: 14px;">
         <p class="small"><em>"It seems more accurate to view the national debt less as a form of debt and more as a form of money in circulation."</em></p>
-        <p class="smaller muted" style="margin-top: 8px;"><strong>David Andolfatto</strong> — St Louis Federal Reserve, 2020</p>
+        <p class="smaller muted" style="margin-top: 8px;"><strong>David Andolfatto</strong>, St Louis Federal Reserve, 2020</p>
       </div>
-      <p style="margin-bottom: 12px;">The national "debt" is the sum of all previous deficits — all previous untaxed government spending — held as:</p>
+      <p style="margin-bottom: 12px;">The national "debt" is the sum of all previous deficits, i.e. all previous untaxed government spending, held as:</p>
       <div class="step">
-        <div class="step-num" style="width: 42px; border-radius: 6px; font-size: 0.6em;">£207bn</div>
-        <div class="step-body">National Savings &amp; Investments — <strong>25 million ordinary savers</strong> holding premium bonds. That is 8.5% of UK national "debt."
+        <div class="step-num" style="min-width: 56px; border-radius: 6px; font-size: 0.55em; padding: 4px 8px; height: auto;">£207bn</div>
+        <div class="step-body">National Savings &amp; Investments: <strong>25 million ordinary savers</strong> holding premium bonds. That is 8.5% of UK national "debt."
           <p class="smaller muted" style="margin-top: 4px;">NS&amp;I Annual Report 2022: "When customers invest in NS&amp;I, they are lending to the Government."</p></div>
       </div>
       <div class="step">
-        <div class="step-num" style="width: 42px; border-radius: 6px; font-size: 0.6em;">£390bn</div>
-        <div class="step-body">UK pension fund gilt holdings — underpinning <strong>millions of workers' retirement savings.</strong>
+        <div class="step-num" style="min-width: 56px; border-radius: 6px; font-size: 0.55em; padding: 4px 8px; height: auto;">£390bn</div>
+        <div class="step-body">UK pension fund gilt holdings, underpinning <strong>millions of workers' retirement savings.</strong>
           <p class="smaller muted" style="margin-top: 4px;">ONS 2022. That is 16% of UK national "debt."</p></div>
       </div>
     </div>
     <div class="col-narrow">
       <div class="card-dark">
-        <h3>The Punchline</h3>
+        <h3>The Bottom Line</h3>
         <p class="small">The national debt is <strong>the private sector's savings.</strong></p>
         <div style="width: 50px; height: 2px; background: #e8a020; margin: 14px 0;"></div>
         <p class="smaller" style="opacity: 0.8;">If we "paid it off," we would be eliminating NS&amp;I accounts, pension funds, and the safe assets the financial system needs for collateral.</p>
       </div>
     </div>
   </div>
-  <aside class="notes">When the media talks about the national debt as a burden, they ignore that the debt IS the savings — premium bonds, pension funds, government bonds held by insurers. Paying it all off would destroy those assets. The system requires the government to maintain safe assets.</aside>
+  <aside class="notes">When the media talks about the national debt as a burden, they ignore that the debt IS the savings: premium bonds, pension funds, government bonds held by insurers. Paying it all off would destroy those assets. The system requires the government to maintain safe assets.</aside>
 </section>
 
 <!-- SECTION 5 HEADER -->
@@ -408,14 +513,14 @@
   <p class="part-label">Part Five</p>
   <h2>The Lie and Its Costs</h2>
   <div class="amber-bar"></div>
-  <p>Why the myth persists — and what it costs ordinary people</p>
+  <p>Why the myth persists, and what it costs ordinary people</p>
   <aside class="notes">We've established what is true. Now: if this is clear from the record and accounting, why do politicians keep getting it wrong? And who benefits?</aside>
 </section>
 
 <!-- SLIDE 12: Why the lie -->
 <section>
   <h2>Why Does the Myth Persist?</h2>
-  <p class="muted" style="margin-bottom: 18px;">Three main reasons — not all of them innocent:</p>
+  <p class="muted" style="margin-bottom: 18px;">Three main reasons, not all of them innocent:</p>
   <div class="columns" style="gap: 18px;">
     <div class="card column" style="border-top: 4px solid #c0392b;">
       <p style="color: #c0392b; font-weight: 700; font-size: 1.05em; margin-bottom: 8px;">① Market Ideology</p>
@@ -423,32 +528,32 @@
     </div>
     <div class="card column" style="border-top: 4px solid #e8a020;">
       <p style="color: #e8a020; font-weight: 700; font-size: 1.05em; margin-bottom: 8px;">② Political Control</p>
-      <p class="small muted">Deficit myths justify keeping government small. If people understood spending is a political choice — not a financial constraint — the debate changes entirely.</p>
+      <p class="small muted">Deficit myths justify keeping government small. If people understood spending is a political choice, not a financial constraint, the debate changes entirely.</p>
     </div>
-    <div class="card column" style="border-top: 4px solid #1a5c38;">
-      <p style="color: #1a5c38; font-weight: 700; font-size: 1.05em; margin-bottom: 8px;">③ Genuine Ignorance</p>
-      <p class="small muted">Many politicians and commentators genuinely don't understand how monetary systems work — though this is less true of those writing the rules.</p>
+    <div class="card column" style="border-top: 4px solid #1e3a5f;">
+      <p style="color: #1e3a5f; font-weight: 700; font-size: 1.05em; margin-bottom: 8px;">③ Genuine Ignorance</p>
+      <p class="small muted">Many politicians and commentators genuinely don't understand how monetary systems work, though this is less true of those writing the rules.</p>
     </div>
   </div>
   <div class="quote" style="margin-top: 18px; font-size: 0.82em;">
     <p>"I think there is an element of truth in the view that the superstition that the budget must be balanced at all times is necessary. Once it is debunked, it takes away one of the bulwarks that every society must have against expenditure out of control. One of the functions of old-fashioned religion was to scare people into behaving in a way that long-run civilized life requires. I see merit in that view."</p>
     <p class="source">— Paul Samuelson, Nobel Laureate in Economics, 1995</p>
   </div>
-  <aside class="notes">Samuelson's candid admission is remarkable. One of the architects of mainstream economics acknowledged that the balanced budget narrative is a "superstition" — but a useful one for controlling expenditure. This is ideological, not economic.</aside>
+  <aside class="notes">Samuelson's candid admission is remarkable. One of the architects of mainstream economics acknowledged that the balanced budget narrative is a "superstition", but a useful one for controlling expenditure. This is ideological, not economic.</aside>
 </section>
 
 <!-- SLIDE 13: False choices -->
 <section>
   <h2>The False Choices We're Offered</h2>
   <p class="muted" style="margin-bottom: 18px;">When politicians discuss public spending, we're told there are only three options:</p>
-  <div class="step"><div class="step-num red">1</div><div class="step-body"><strong>Raise taxes</strong> — making ordinary people pay more</div></div>
-  <div class="step"><div class="step-num red">2</div><div class="step-body"><strong>Cut spending elsewhere</strong> — robbing Peter to pay Paul</div></div>
-  <div class="step"><div class="step-num red">3</div><div class="step-body"><strong>Be "fiscally irresponsible"</strong> — disregarding self-imposed fiscal rules and risking national ruin</div></div>
+  <div class="step"><div class="step-num red">1</div><div class="step-body"><strong>Raise taxes</strong>, making ordinary people pay more</div></div>
+  <div class="step"><div class="step-num red">2</div><div class="step-body"><strong>Cut spending elsewhere</strong>, robbing Peter to pay Paul</div></div>
+  <div class="step"><div class="step-num red">3</div><div class="step-body"><strong>Be "fiscally irresponsible"</strong>, disregarding self-imposed fiscal rules and risking national ruin</div></div>
   <div class="highlight-box" style="margin-top: 22px;">
-    <strong>All three assume the myth is true.</strong> They assume spending requires prior financing. But spending authorised by Parliament creates its own financing. The constraint is not money — it is productive capacity and inflation.
+    <strong>All three assume the myth is true.</strong> They assume spending requires prior financing. But spending authorised by Parliament creates its own financing. The constraint is not money, it is productive capacity and inflation.
   </div>
   <div class="card-amber" style="margin-top: 14px;">
-    <p class="small">The real question is never <em>"where will the money come from?"</em> It is: <strong>"Do we have the real resources — workers, materials, productive capacity — to deliver this without causing inflation?"</strong></p>
+    <p class="small">The real question is never <em>"where will the money come from?"</em> It is: <strong>"Do we have the real resources (workers, materials, productive capacity) to deliver this without causing inflation?"</strong></p>
   </div>
   <aside class="notes">Every budget debate is framed around these false choices. Journalists ask "how will you pay for it?" when the honest answer is that Parliament authorises it. The question of payment is a political smokescreen. Resources and inflation are the real questions.</aside>
 </section>
@@ -456,31 +561,31 @@
 <!-- SLIDE 14: Real constraints -->
 <section>
   <h2>The Real Constraints on Spending</h2>
-  <div class="card-amber" style="margin-bottom: 20px;">
-    <p><strong>The primary spending constraint is inflation and the productive capacity of the economy.</strong> If there is insufficient real capacity relative to demand, additional spending raises prices, not output.</p>
+  <div class="card-amber" style="margin-bottom: 12px; padding: 8px 14px;">
+    <p class="small"><strong>The primary spending constraint is inflation and the productive capacity of the economy.</strong> If there is insufficient real capacity relative to demand, additional spending raises prices, not output.</p>
   </div>
-  <div class="columns" style="gap: 18px;">
-    <div class="card-green column">
-      <p style="color: #1a5c38; font-weight: 600; margin-bottom: 8px;">✓ Real Constraints</p>
-      <p class="small muted">Inflationary pressure</p>
-      <p class="small muted">Available workers and skills</p>
-      <p class="small muted">Physical materials and supply chains</p>
-      <p class="small muted">Productive infrastructure capacity</p>
+  <div class="columns" style="gap: 14px; margin-bottom: 10px;">
+    <div class="card-green column" style="padding: 8px 12px;">
+      <p style="color: #1e3a5f; font-weight: 600; margin-bottom: 4px; font-size: 0.85em;">✓ Real Constraints</p>
+      <p class="smaller muted">Inflationary pressure</p>
+      <p class="smaller muted">Available workers and skills</p>
+      <p class="smaller muted">Physical materials and supply chains</p>
+      <p class="smaller muted">Productive infrastructure capacity</p>
     </div>
-    <div class="card-red column">
-      <p style="color: #c0392b; font-weight: 600; margin-bottom: 8px;">✕ Not Real Constraints</p>
-      <p class="small muted">Affordability in monetary terms</p>
-      <p class="small muted">The size of the deficit</p>
-      <p class="small muted">Debt-to-GDP ratios</p>
-      <p class="small muted">Bond market "confidence"</p>
+    <div class="card-red column" style="padding: 8px 12px;">
+      <p style="color: #c0392b; font-weight: 600; margin-bottom: 4px; font-size: 0.85em;">✕ Not Real Constraints</p>
+      <p class="smaller muted">Affordability in monetary terms</p>
+      <p class="smaller muted">The size of the deficit</p>
+      <p class="smaller muted">Debt-to-GDP ratios</p>
+      <p class="smaller muted">Bond market "confidence"</p>
     </div>
   </div>
-  <div class="quote" style="margin-top: 18px;">
-    <p class="small">"A multi-billion pound plan to expand free childcare risks being undermined by 'significant' nursery closures this year... capacity issues posing challenges to universal rollout."</p>
+  <div class="quote" style="margin-top: 8px; padding: 8px 14px;">
+    <p class="smaller">"A multi-billion pound plan to expand free childcare risks being undermined by 'significant' nursery closures this year... capacity issues posing challenges to universal rollout."</p>
     <p class="source">— Sky News, July 2022</p>
   </div>
-  <div class="card" style="margin-top: 12px;"><p class="small muted">The childcare example is perfect: the constraint was <strong>nursery places and trained workers</strong> — not money. During Covid, no one could buy toilet rolls no matter how much money they had. Real resources are the limit.</p></div>
-  <aside class="notes">I want to be very clear: this is not an argument that government can spend infinitely. Inflation is real. But the fears dominating public debate — that the debt will explode, that bond markets will punish us — are mostly the result of confusion with the household analogy.</aside>
+  <div class="card-green" style="margin-top: 8px; padding: 8px 14px;"><p class="smaller muted">The childcare example is perfect: the constraint was <strong>nursery places and trained workers</strong>, not money. During Covid, no one could buy toilet rolls no matter how much money they had. Real resources are the limit.</p></div>
+  <aside class="notes">I want to be very clear: this is not an argument that government can spend infinitely. Inflation is real. But the fears dominating public debate (that the debt will explode, that bond markets will punish us) are mostly the result of confusion with the household analogy.</aside>
 </section>
 
 <!-- SLIDE 15: Cost of the lie -->
@@ -488,32 +593,32 @@
   <h2>The Cost of the Lie</h2>
   <p class="muted small" style="margin-bottom: 12px;">Real consequences of austerity justified by monetary myth:</p>
   <div class="news-grid">
-    <div class="news-card"><p class="outlet">NHS / The Guardian</p><p class="headline">Record NHS waiting lists exceed 7.7 million — longest in history</p><span class="cost-tag">Decade of underfunding</span></div>
+    <div class="news-card"><p class="outlet">NHS / The Guardian</p><p class="headline">Record NHS waiting lists exceed 7.7 million, longest in history</p><span class="cost-tag">Decade of underfunding</span></div>
     <div class="news-card"><p class="outlet">Local Councils / BBC</p><p class="headline">Birmingham, Nottingham, Woking among councils declaring effective bankruptcy</p><span class="cost-tag">Austerity cuts</span></div>
     <div class="news-card"><p class="outlet">Education / DfE</p><p class="headline">700,000 children in schools with buildings requiring urgent safety repair</p><span class="cost-tag">Capital underspend</span></div>
-    <div class="news-card"><p class="outlet">Poverty / JRF</p><p class="headline">4.2 million children in poverty — up from 3.6 million in 2012</p><span class="cost-tag">Benefit cuts</span></div>
-    <div class="news-card"><p class="outlet">Mental Health / Mind</p><p class="headline">1.8 million people waiting for mental health treatment — lists doubled</p><span class="cost-tag">Service collapse</span></div>
+    <div class="news-card"><p class="outlet">Poverty / JRF</p><p class="headline">4.2 million children in poverty, up from 3.6 million in 2012</p><span class="cost-tag">Benefit cuts</span></div>
+    <div class="news-card"><p class="outlet">Mental Health / Mind</p><p class="headline">1.8 million people waiting for mental health treatment as lists doubled</p><span class="cost-tag">Service collapse</span></div>
     <div class="news-card"><p class="outlet">Infrastructure / ONS</p><p class="headline">UK infrastructure investment lowest in G7 as a share of GDP for 30 years</p><span class="cost-tag">Productive decline</span></div>
-    <div class="news-card"><p class="outlet">Social Care / LGA</p><p class="headline">Social care gap reaches £2.8 billion — 1.5 million without care they need</p><span class="cost-tag">Preventable</span></div>
-    <div class="news-card"><p class="outlet">Climate / CCC</p><p class="headline">UK falls behind on climate targets — green investment gap of £50bn per year</p><span class="cost-tag">Future cost</span></div>
-    <div class="news-card"><p class="outlet">Wales / Senedd</p><p class="headline">Wales faces £900m real-terms budget cut — councils warn of service collapse</p><span class="cost-tag">Wales specific</span></div>
+    <div class="news-card"><p class="outlet">Social Care / LGA</p><p class="headline">Social care gap reaches £2.8 billion with 1.5 million without care they need</p><span class="cost-tag">Preventable</span></div>
+    <div class="news-card"><p class="outlet">Climate / CCC</p><p class="headline">UK falls behind on climate targets with green investment gap of £50bn per year</p><span class="cost-tag">Future cost</span></div>
+    <div class="news-card"><p class="outlet">Wales / Senedd</p><p class="headline">Wales faces £900m real-terms budget cut as councils warn of service collapse</p><span class="cost-tag">Budget cuts</span></div>
   </div>
-  <aside class="notes">These are not abstract statistics. Each represents a political choice disguised as a financial necessity. The myth that money was scarce justified every one of these outcomes. They were not inevitable — they were chosen. Sold to us using false accounting.</aside>
+  <aside class="notes">These are not abstract statistics. Each represents a political choice disguised as a financial necessity. The myth that money was scarce justified every one of these outcomes. They were not inevitable. They were chosen, and sold to us using false accounting.</aside>
 </section>
 
 <!-- SLIDE 16: The reality -->
 <section>
-  <h2>The Reality — Not the Myth</h2>
+  <h2>The Reality, Not the Myth</h2>
   <p class="muted" style="margin-bottom: 16px;">What is actually true about government finances:</p>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">✓</div><div class="step-body green-bg">There is no debt crisis. Not today, and not on the horizon.</div></div>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">✓</div><div class="step-body green-bg">The national debt poses no solvency risk to UK finances.</div></div>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">✓</div><div class="step-body green-bg">The so-called "debt" is just the pounds that government spent but didn't tax back — it is the private sector's financial savings.</div></div>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">✓</div><div class="step-body green-bg">It is not like running up a personal credit card. We do not eventually need to "pay it off."</div></div>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">✓</div><div class="step-body green-bg">It will not leave future generations poorer. <em>Not investing</em> in health, infrastructure and climate will.</div></div>
+  <div class="step"><div class="step-num" style="background:#1e3a5f;">✓</div><div class="step-body green-bg">There is no debt crisis. Not today, and not on the horizon.</div></div>
+  <div class="step"><div class="step-num" style="background:#1e3a5f;">✓</div><div class="step-body green-bg">The national debt poses no solvency risk to UK finances.</div></div>
+  <div class="step"><div class="step-num" style="background:#1e3a5f;">✓</div><div class="step-body green-bg">The so-called "debt" is just the pounds that government spent but didn't tax back. It is the private sector's financial savings.</div></div>
+  <div class="step"><div class="step-num" style="background:#1e3a5f;">✓</div><div class="step-body green-bg">It is not like running up a personal credit card. We do not eventually need to "pay it off."</div></div>
+  <div class="step"><div class="step-num" style="background:#1e3a5f;">✓</div><div class="step-body green-bg">It will not leave future generations poorer. <em>Not investing</em> in health, infrastructure and climate will.</div></div>
   <div class="highlight-box" style="margin-top: 16px;">
-    <strong>What will leave our children worse off</strong> is failing to invest in productive infrastructure, tackling climate change, and building a resilient economy — not the accounting entries called "national debt."
+    <strong>What will leave our children worse off</strong> is failing to invest in productive infrastructure, tackling climate change, and building a resilient economy. Not the accounting entries called "national debt."
   </div>
-  <aside class="notes">To be clear: inflation is a real constraint. Political sustainability matters. But the specific fears — exploding debt, crushing obligations on future generations, bond market collapse — are mostly confusions arising from the household analogy.</aside>
+  <aside class="notes">To be clear: inflation is a real constraint. Political sustainability matters. But the specific fears (exploding debt, crushing obligations on future generations, bond market collapse) are mostly confusions arising from the household analogy.</aside>
 </section>
 
 <!-- SECTION 6 HEADER -->
@@ -522,13 +627,13 @@
   <h2>A Better Future</h2>
   <div class="amber-bar"></div>
   <p>The questions we should be asking instead</p>
-  <aside class="notes">If the constraints are real — inflation and productive capacity — what does that mean for the political conversation? What questions should we be asking?</aside>
+  <aside class="notes">If the constraints are real (inflation and productive capacity) what does that mean for the political conversation? What questions should we be asking?</aside>
 </section>
 
 <!-- SLIDE 17: A crossroads -->
 <section>
   <h2>Two Paths</h2>
-  <p class="muted" style="margin-bottom: 14px;">We face a genuine choice — not a financial one, but a political and moral one:</p>
+  <p class="muted" style="margin-bottom: 14px;">We face a genuine choice. Not a financial one, but a political and moral one:</p>
   <div class="crossroads">
     <div class="road left">
       <h3>The Myth Path</h3>
@@ -539,11 +644,11 @@
       <p class="small muted">• Climate investment deferred as "unaffordable"</p>
       <p class="small muted">• Future generations inherit broken systems</p>
     </div>
-    <div style="display: flex; align-items: center; font-size: 2.2em; color: #1a5c38; padding: 0 4px;">⇒</div>
+    <div style="display: flex; align-items: center; font-size: 2.2em; color: #1e3a5f; padding: 0 4px;">⇒</div>
     <div class="road right">
       <h3>The Reality Path</h3>
-      <p class="small" style="color: #1a5c38;">Recognise that the true constraints are real resources and inflationary capacity</p>
-      <div style="width: 100%; height: 1px; background: rgba(26,92,56,0.3); margin: 10px 0;"></div>
+      <p class="small" style="color: #1e3a5f;">Recognise that the true constraints are real resources and inflationary capacity</p>
+      <div style="width: 100%; height: 1px; background: rgba(30,58,95,0.3); margin: 10px 0;"></div>
       <p class="small muted">• Investment in productive capacity</p>
       <p class="small muted">• Public services as essential infrastructure</p>
       <p class="small muted">• Green transition as investment, not cost</p>
@@ -551,57 +656,61 @@
     </div>
   </div>
   <div class="quote" style="margin-top: 18px; border-left-color: #e8a020;"><p>"Without our own vision, we'll end up living someone else's."</p></div>
-  <aside class="notes">This is genuinely a fork in the road — not financial, but political and moral. The myth path leads to continued managed decline. The reality path asks us to be honest about what we can build if we choose to.</aside>
+  <aside class="notes">This is genuinely a fork in the road. Not financial, but political and moral. The myth path leads to continued managed decline. The reality path asks us to be honest about what we can build if we choose to.</aside>
 </section>
 
 <!-- SLIDE 18: Questions to ask -->
-<section>
+<section style="display: flex; flex-direction: column; justify-content: center;">
   <h2>The Questions We Should Be Asking</h2>
-  <p class="muted" style="margin-bottom: 16px;">Replace <em>"How will you pay for it?"</em> with these:</p>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">1</div><div class="step-body green-bg"><strong>What do we need?</strong> What are our collective priorities as a society?</div></div>
-  <div class="step"><div class="step-num" style="background:#1a5c38;">2</div><div class="step-body green-bg"><strong>Do we have the resources?</strong> Trained workers, materials, infrastructure, supply chains?</div></div>
-  <div class="step"><div class="step-num amber">3</div><div class="step-body amber-bg"><strong>If not — can we build, train, or trade for them?</strong> This is the real policy challenge.</div></div>
-  <div class="step"><div class="step-num amber">4</div><div class="step-body amber-bg"><strong>Why are politicians pretending money is scarce?</strong> Who benefits from that confusion?</div></div>
-  <div class="highlight-box" style="margin-top: 18px;">
+  <p class="muted" style="margin-bottom: 24px;">Replace <em>"How will you pay for it?"</em> with these:</p>
+  <div class="step" style="margin-bottom: 14px;"><div class="step-num" style="background:#1e3a5f;">1</div><div class="step-body green-bg"><strong>What do we need?</strong> What are our collective priorities as a society?</div></div>
+  <div class="step" style="margin-bottom: 14px;"><div class="step-num" style="background:#1e3a5f;">2</div><div class="step-body green-bg"><strong>Do we have the resources?</strong> Trained workers, materials, infrastructure, supply chains?</div></div>
+  <div class="step" style="margin-bottom: 14px;"><div class="step-num amber">3</div><div class="step-body amber-bg"><strong>If not, can we build, train, or trade for them?</strong> This is the real policy challenge.</div></div>
+  <div class="step" style="margin-bottom: 14px;"><div class="step-num amber">4</div><div class="step-body amber-bg"><strong>Why are politicians pretending money is scarce?</strong> Who benefits from that confusion?</div></div>
+  <div class="highlight-box" style="margin-top: 28px; padding: 18px 20px;">
     <strong>The demand we should make:</strong> Stop asking politicians "where will the money come from?" Demand instead that they explain how they will <em>resource</em> their priorities. Money is a political instrument. Resources are the real question.
   </div>
-  <aside class="notes">This is the practical takeaway. In every manifesto, every budget debate — insist on reframing. Not "can we afford it?" but "how do we resource it?" Not "where does the money come from?" but "do we have the workers, training, supply chains?" That shift completely changes the political conversation.</aside>
+  <aside class="notes">This is the practical takeaway. In every manifesto, every budget debate, insist on reframing. Not "can we afford it?" but "how do we resource it?" Not "where does the money come from?" but "do we have the workers, training, supply chains?" That shift completely changes the political conversation.</aside>
 </section>
 
 <!-- SLIDE 19: Key takeaways -->
 <section>
   <h2>Key Takeaways</h2>
-  <div class="takeaway"><div class="takeaway-num">1</div><div class="takeaway-body">The UK operates a <strong>fiat currency system.</strong> Money is created when government spends and destroyed when it taxes — not collected then spent.</div></div>
-  <div class="takeaway"><div class="takeaway-num">2</div><div class="takeaway-body">The government is the <strong>currency issuer</strong> — fundamentally different from any household, business, or private sector entity.</div></div>
-  <div class="takeaway"><div class="takeaway-num">3</div><div class="takeaway-body"><strong>Taxation manages inflation and inequality</strong> — it does not fund spending. Spend → create money; tax → destroy money.</div></div>
-  <div class="takeaway"><div class="takeaway-num">4</div><div class="takeaway-body">The national "debt" is the <strong>private sector's savings</strong> — pension funds, NS&amp;I accounts, safe assets. Eliminating it would harm ordinary savers.</div></div>
-  <div class="takeaway"><div class="takeaway-num">5</div><div class="takeaway-body highlighted"><strong>The real constraints are resources and inflation.</strong> The question is never "can we afford it?" — it is "do we have the capacity to deliver it without causing inflation?"</div></div>
-  <aside class="notes">Five points to take away. The most important is number five — the shift from affordability to capacity. If we can train the nurses, build the nurseries, manufacture the wind turbines, we can have them. Political will, not money, is the limit.</aside>
+  <div class="takeaway"><div class="takeaway-num">1</div><div class="takeaway-body">The UK operates a <strong>fiat currency system.</strong> Money is created when government spends and destroyed when it taxes. It is not collected then spent.</div></div>
+  <div class="takeaway"><div class="takeaway-num">2</div><div class="takeaway-body">The government is the <strong>currency issuer</strong>, fundamentally different from any household, business, or private sector entity.</div></div>
+  <div class="takeaway"><div class="takeaway-num">3</div><div class="takeaway-body"><strong>Taxation manages inflation and inequality.</strong> It does not fund spending. Spend = create money; tax = destroy money.</div></div>
+  <div class="takeaway"><div class="takeaway-num">4</div><div class="takeaway-body">The national "debt" is the <strong>private sector's savings</strong>: pension funds, NS&amp;I accounts, safe assets. Eliminating it would collapse the money supply and cause a depression.</div></div>
+  <div class="takeaway"><div class="takeaway-num">5</div><div class="takeaway-body highlighted"><strong>The real constraints are resources and inflation.</strong> The question is never "can we afford it?" but "do we have the capacity to deliver it without causing inflation?"</div></div>
+  <aside class="notes">Five points to take away. The most important is number five: the shift from affordability to capacity. If we can train the nurses, build the nurseries, manufacture the wind turbines, we can have them. Political will, not money, is the limit.</aside>
 </section>
 
 <!-- SLIDE 20: Keynes closing -->
 <section>
   <h2>The Future</h2>
-  <div class="card-green" style="margin-bottom: 20px;">
-    <p>We have the resources to repair our broken systems. Don't let myths about debt and deficits hold us back. Focus on the real deficits: <strong>health, education, infrastructure, and good jobs.</strong></p>
+  <div class="card-green" style="margin-bottom: 10px; padding: 8px 14px;">
+    <p class="small">We have the resources to repair our broken systems. Don't let myths about debt and deficits hold us back. Focus on the real deficits: <strong>health, education, infrastructure, and good jobs.</strong></p>
   </div>
-  <div class="quote" style="border-left-color: #e8a020; background: #fef3dc;">
-    <p>"The difficulty lies not so much in developing new ideas as in escaping from old ones. Once we allow ourselves to be disobedient to the test of an accountant's profit, we have begun to change our civilization."</p>
-    <p class="source">— John Maynard Keynes</p>
+  <div class="quote" style="border-left-color: #e8a020; background: #fef3dc; padding: 8px 14px; margin-bottom: 10px;">
+    <p class="small">"The difficulty lies not so much in developing new ideas as in escaping from old ones. Once we allow ourselves to be disobedient to the test of an accountant's profit, we have begun to change our civilization."</p>
+    <p class="source">— John Maynard Keynes, <em>The General Theory</em> (1936)</p>
   </div>
-  <div class="card" style="margin-top: 18px;"><p class="small muted">We have enormous untapped productive capacity — <strong>unemployed nurses and GPs alongside an NHS in crisis; skilled workers underemployed; communities capable of far more.</strong> The money myth keeps that capacity locked away. Once you see through it, the politics of scarcity look very different.</p></div>
-  <aside class="notes">Keynes captures the challenge. The hard part is not inventing new ideas — it is escaping the grip of old, wrong ones. The accounting rules of the household have been misapplied to sovereign governments for decades, with enormous human cost.</aside>
+  <div class="card-amber" style="margin-bottom: 10px; padding: 8px 14px;"><p class="small">We have enormous untapped productive capacity: <strong>unemployed nurses and GPs alongside an NHS in crisis; skilled workers underemployed; communities capable of far more.</strong> The money myth keeps that capacity locked away. Once you see through it, the politics of scarcity look very different.</p></div>
+  <div class="quote" style="padding: 8px 14px;">
+    <p class="small">"Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually the slaves of some defunct economist."</p>
+    <p class="source">— John Maynard Keynes, <em>The General Theory</em> (1936)</p>
+  </div>
+  <aside class="notes">Keynes captures the challenge. The hard part is not inventing new ideas but escaping the grip of old, wrong ones. The accounting rules of the household have been misapplied to sovereign governments for decades, with enormous human cost.</aside>
 </section>
 
 <!-- SLIDE 21: Discussion questions -->
 <section>
   <h2>Questions for Discussion</h2>
-  <div class="card-amber" style="margin-bottom: 14px;"><p>If government spending creates money and taxation destroys it, what should the Greens' economic narrative look like? How do we talk about "investment" vs "spending"?</p></div>
-  <div class="card" style="margin-bottom: 14px;"><p>What are the strongest objections to this analysis — and how would you answer them?</p></div>
-  <div class="card" style="margin-bottom: 14px;"><p>How should we assess whether we can "resource" the green transition — and what are the real bottlenecks?</p></div>
-  <div class="card" style="margin-bottom: 14px;"><p>Should Wales campaign for greater fiscal powers so it can act more like a currency user with real spending authority?</p></div>
-  <div class="card-green"><p>How might better public understanding of these mechanisms change the conversation about austerity, public services, and climate investment?</p></div>
-  <aside class="notes">These are the questions that matter for us as a political movement. The Wales question is particularly relevant — the Senedd's funding constraints are real, but the argument is often framed as if Westminster faces the same constraints, when it does not.</aside>
+  <div class="card-amber" style="margin-bottom: 10px; padding: 8px 14px;"><p class="small">If government spending creates money and taxation destroys it, how should we talk about "investment" vs "spending" in public debate?</p></div>
+  <div class="card" style="margin-bottom: 10px; padding: 8px 14px; border-left: 4px solid #8a9db5;"><p class="small">What are the strongest objections to this analysis, and how would you answer them?</p></div>
+  <div class="card" style="margin-bottom: 10px; padding: 8px 14px; border-left: 4px solid #8a9db5;"><p class="small">How should we assess whether we can "resource" major public investment, and what are the real bottlenecks?</p></div>
+  <div class="card" style="margin-bottom: 10px; padding: 8px 14px; border-left: 4px solid #8a9db5;"><p class="small">Should devolved nations campaign for greater fiscal powers so they can act more like currency users with real spending authority?</p></div>
+  <div class="card-green" style="padding: 8px 14px;"><p class="small">How might better public understanding of these mechanisms change the conversation about austerity, public services, and climate investment?</p></div>
+  <aside class="notes">These are the questions that matter for public debate. The devolution question is particularly relevant. The Senedd's and Holyrood's funding constraints are real, but the argument is often framed as if Westminster faces the same constraints, when it does not.</aside>
 </section>
 
 <!-- CLOSING SLIDE -->
@@ -612,7 +721,7 @@
   <div class="amber-bar"></div>
   <p style="opacity: 0.7; margin-top: 28px;">Contact: vincent_gomez@hotmail.com</p>
   <p class="subtitle" style="margin-top: 14px;">Recommended reading:<br>Bank of England (2014) "Money Creation in the Modern Economy"<br>Berkeley et al. (2025) "The Self-Financing State"</p>
-  <aside class="notes">Thank you. Happy to take questions on the technical accounting, the historical record, or the policy implications. The Bank of England 2014 paper is free, clear, and authoritative — the best starting point for anyone who wants to read further.</aside>
+  <aside class="notes">Thank you. Happy to take questions on the technical accounting, the historical record, or the policy implications. The Bank of England 2014 paper is free, clear, and authoritative: the best starting point for anyone who wants to read further.</aside>
 </section>
 
 </div>
@@ -629,7 +738,7 @@
     transitionSpeed: 'fast',
     width: 1280,
     height: 720,
-    margin: 0.04,
+    margin: 0.06,
     plugins: [RevealNotes],
     pdfMaxPagesPerSlide: 1,
     pdfSeparateFragments: false
@@ -653,13 +762,13 @@
                               0.6, 1.3, 0.1,-2.0,-3.3,-3.2,-2.9,-2.8,-2.7,-5.2,-10.2,-9.3,
                              -7.4,-8.0,-5.3,-5.5,-4.6,-3.3,-2.5,-2.2,-2.5,-13.0,-7.8,-4.6,-6.0,-6.0];
       new Chart(document.getElementById('sectoralChart'), {
-        type: 'line',
+        type: 'bar',
         data: {
           labels: years,
           datasets: [
-            { label: 'Private Sector', data: privateSector, borderColor: '#2d7a4f', backgroundColor: 'rgba(45,122,79,0.08)', borderWidth: 2.5, fill: false, tension: 0.3, pointRadius: 2 },
-            { label: 'Rest of World', data: row, borderColor: '#e8a020', backgroundColor: 'rgba(232,160,32,0.08)', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2 },
-            { label: 'Government', data: govt, borderColor: '#c0392b', backgroundColor: 'rgba(192,57,43,0.08)', borderWidth: 2.5, fill: false, tension: 0.3, pointRadius: 2 }
+            { label: 'Private Sector', data: privateSector, backgroundColor: 'rgba(45,90,138,0.85)', borderColor: '#1e3a5f', borderWidth: 1, borderRadius: 1, maxBarThickness: 16 },
+            { label: 'Rest of World', data: row, backgroundColor: 'rgba(232,160,32,0.85)', borderColor: '#c48a10', borderWidth: 1, borderRadius: 1, maxBarThickness: 16 },
+            { label: 'Government', data: govt, backgroundColor: 'rgba(192,57,43,0.85)', borderColor: '#922b1a', borderWidth: 1, borderRadius: 1, maxBarThickness: 16 }
           ]
         },
         options: {
@@ -671,8 +780,8 @@
             tooltip: { callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(1) + '% of GDP' } }
           },
           scales: {
-            x: { ticks: { font: { family: 'Inter', size: 10 }, maxTicksLimit: 10 } },
-            y: { ticks: { font: { family: 'Inter', size: 10 }, callback: v => v + '%' }, grid: { color: 'rgba(0,0,0,0.06)' } }
+            x: { stacked: true, ticks: { font: { family: 'Inter', size: 10 }, maxTicksLimit: 10 } },
+            y: { stacked: true, ticks: { font: { family: 'Inter', size: 10 }, callback: v => v + '%' }, grid: { color: 'rgba(0,0,0,0.06)' } }
           }
         }
       });
