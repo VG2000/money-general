@@ -2,6 +2,8 @@
 
 A presentation challenging what we're told about public finances, explaining how money creation actually works in the UK economy.
 
+**[View the presentation](https://vg2000.github.io/money-general/money-creation-uk.html)**
+
 ## Overview
 
 This presentation explains:
