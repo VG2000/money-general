@@ -19,7 +19,7 @@ This presentation explains:
 
 - **Bank of England (2014)** - "[Money creation in the modern economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy)", *Quarterly Bulletin Q1 2014*
 
-- **Berkeley, A., Considine, J., and Hail, S. (2025)** - "The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom", *Journal of Economic Issues*, 59(3), 852-880
+- **Berkeley, A., Ryan-Collins, J., Voldsgaard, A., Tye, R., and Wilson, N. (2024)** - "The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom". Available at SSRN: https://ssrn.com/abstract=4890683 or http://dx.doi.org/10.2139/ssrn.4890683
 
 ### Key UK Legislation
 

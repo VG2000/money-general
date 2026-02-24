@@ -2,7 +2,7 @@
 
 ## Table 2: Accounting Transactions When Tax Is Paid
 
-This table shows the step-by-step balance sheet changes when a UK taxpayer pays Â£100 in tax. Taxation is the reverse of spending â€” it **destroys money** rather than funding expenditure.
+This table shows the step-by-step balance sheet changes when a UK taxpayer pays £100 in tax. Taxation is the reverse of spending - it **destroys money** rather than funding expenditure.
 
 ### Overview
 
@@ -12,12 +12,12 @@ When taxes are paid, money flows from the private sector back to government, ult
 
 ### Step 1: Taxpayer Instructs Payment
 
-A taxpayer with Â£100 in their bank account instructs their bank to pay HMRC.
+A taxpayer with £100 in their bank account instructs their bank to pay HMRC.
 
 | Entity | Assets | Liabilities |
 |--------|--------|-------------|
-| **Taxpayer** | âˆ’Â£100 (bank deposit) | âˆ’Â£100 (tax liability settled) |
-| **Commercial Bank** | | âˆ’Â£100 (customer deposit) |
+| **Taxpayer** | -£100 (bank deposit) | -£100 (tax liability settled) |
+| **Commercial Bank** | | -£100 (customer deposit) |
 
 *The taxpayer's deposit disappears from the banking system.*
 
@@ -29,10 +29,10 @@ The commercial bank's reserve account at the Bank of England is debited to settl
 
 | Entity | Assets | Liabilities |
 |--------|--------|-------------|
-| **Commercial Bank** | âˆ’Â£100 (reserves at BoE) | |
-| **Bank of England** | | âˆ’Â£100 (reserve liabilities) |
-| **Bank of England** | | +Â£100 (HMRC account) |
-| **HMRC Account at BoE** | +Â£100 | |
+| **Commercial Bank** | -£100 (reserves at BoE) | |
+| **Bank of England** | | -£100 (reserve liabilities) |
+| **Bank of England** | | +£100 (HMRC account) |
+| **HMRC Account at BoE** | +£100 | |
 
 *Reserves are transferred from the commercial bank to HMRC's account at the Bank of England.*
 
@@ -44,34 +44,34 @@ HMRC transfers the receipt to the Consolidated Fund as required by the Exchequer
 
 | Entity | Assets | Liabilities |
 |--------|--------|-------------|
-| **HMRC Account** | âˆ’Â£100 | |
-| **Consolidated Fund** | +Â£100 (credit) | |
+| **HMRC Account** | -£100 | |
+| **Consolidated Fund** | +£100 (credit) | |
 
 ---
 
-### Step 4: End of Day â€” Exchequer Sweep
+### Step 4: End of Day - Exchequer Sweep
 
 The Consolidated Fund credit offsets previous debits from spending, moving the net position toward zero (or surplus).
 
 | Entity | Assets | Liabilities |
 |--------|--------|-------------|
-| **National Loans Fund** | âˆ’Â£100 (reduced claim on CF) | |
-| **Consolidated Fund** | | +Â£100 (improved net position) |
+| **National Loans Fund** | -£100 (reduced claim on CF) | |
+| **Consolidated Fund** | | +£100 (improved net position) |
 
 ---
 
 ### Net Result
 
-After Â£100 in tax is paid:
+After £100 in tax is paid:
 
 | Sector | Balance Sheet Change |
 |--------|---------------------|
-| **Taxpayer** | âˆ’Â£100 asset (bank deposit gone) |
-| **Commercial Bank** | âˆ’Â£100 asset (reserves), âˆ’Â£100 liability (deposit) |
-| **Bank of England** | âˆ’Â£100 net liability |
-| **Government (consolidated)** | âˆ’Â£100 liability (money destroyed) |
+| **Taxpayer** | -£100 asset (bank deposit gone) |
+| **Commercial Bank** | -£100 asset (reserves), -£100 liability (deposit) |
+| **Bank of England** | -£100 net liability |
+| **Government (consolidated)** | -£100 liability (money destroyed) |
 
-**Key insight:** Â£100 of money has been destroyed. Taxation removes money from circulation â€” it is the reverse of spending, which creates money.
+**Key insight:** £100 of money has been destroyed. Taxation removes money from circulation - it is the reverse of spending, which creates money.
 
 ---
 
@@ -79,9 +79,9 @@ After Â£100 in tax is paid:
 
 The sequence matters:
 
-1. **Government spends first** â€” creating new money via Consolidated Fund credit
-2. **Taxes are paid later** â€” destroying money, crediting the CF
-3. **Net position calculated at day's end** â€” the Exchequer Sweep reconciles
+1. **Government spends first** - creating new money via Consolidated Fund credit
+2. **Taxes are paid later** - destroying money, crediting the CF
+3. **Net position calculated at day's end** - the Exchequer Sweep reconciles
 
 Taxes cannot logically "fund" spending because:
 
@@ -90,17 +90,17 @@ Taxes cannot logically "fund" spending because:
 - Tax receipts arrive throughout the day
 - Settlement happens at day's end
 
-The government doesn't wait to collect taxes before spending â€” it spends by creating credit, then taxes flow back to offset those credits.
+The government doesn't wait to collect taxes before spending - it spends by creating credit, then taxes flow back to offset those credits.
 
 ---
 
 ### Analogy: The Stadium Ticket
 
-Imagine a football club that issues its own tickets (currency) for entry. The club doesn't need to collect tickets before issuing them â€” it creates tickets, people use them to enter, then the club collects and destroys them at the gate.
+Imagine a football club that issues its own tickets (currency) for entry. The club doesn't need to collect tickets before issuing them - it creates tickets, people use them to enter, then the club collects and destroys them at the gate.
 
 Similarly:
 - Government **issues** money (spending)
-- Public **uses** money (transactions)  
+- Public **uses** money (transactions)
 - Government **collects and destroys** money (taxation)
 
 The club can't "run out" of tickets. Nor can a currency-issuing government "run out" of its own money.
@@ -113,10 +113,10 @@ The presentation illustrates the tax flow for a general audience as four stages:
 
 | Stage | Entity | Change | Description |
 |-------|--------|--------|-------------|
-| 1 | You (Taxpayer) | −£100 | Deposit lost from your bank account |
-| 2 | Your Bank | −£100 | Reserves transferred to HMRC |
-| 3 | HMRC → BoE | +£100 | Credited to government account |
-| 4 | Consolidated Fund | Offsets | Cancels prior spending — money destroyed |
+| 1 | You (Taxpayer) | -£100 | Deposit lost from your bank account |
+| 2 | Your Bank | -£100 | Reserves transferred to HMRC |
+| 3 | HMRC > BoE | +£100 | Credited to government account |
+| 4 | Consolidated Fund | Offsets | Cancels prior spending - money destroyed |
 
 > "£100 of money has been destroyed. It no longer exists in the economy as a private sector asset."
 
@@ -124,10 +124,10 @@ The presentation illustrates the tax flow for a general audience as four stages:
 
 The presentation identifies four purposes taxes actually serve:
 
-1. **Control inflation** — remove money from circulation
-2. **Reduce inequality** — redistribute purchasing power
-3. **Shape behaviour** — discourage harmful activities (tobacco, carbon)
-4. **Give the currency value** — requiring taxes be paid in pounds creates demand for pounds
+1. **Control inflation** - remove money from circulation
+2. **Reduce inequality** - redistribute purchasing power
+3. **Shape behaviour** - discourage harmful activities (tobacco, carbon)
+4. **Give the currency value** - requiring taxes be paid in pounds creates demand for pounds
 
 None of these is "funding government spending."
 
@@ -135,4 +135,4 @@ None of these is "funding government spending."
 
 ## Source
 
-Adapted from Berkeley, A., Considine, J., and Hail, S. (2025) "The Self-Financing State", *Journal of Economic Issues*, 59(3), Table 2.
+Adapted from Berkeley, A., Ryan-Collins, J., Voldsgaard, A., Tye, R., and Wilson, N. (2024) "The Self-Financing State", SSRN: https://ssrn.com/abstract=4890683, Table 2.
