@@ -36,9 +36,14 @@ DOI: 10.1080/00213624.2000.11506296
 *Journal of Economic Issues*, 48(3), 641-662  
 DOI: 10.2753/JEI0021-3624480303
 
-**Fullwiler, S. (2020)**  
-"When the Interest Rate on the National Debt Is a Policy Variable (and 'Printing Money' Does Not Apply)"  
-*Public Budgeting & Finance*, 40(3), 72-94  
+**Andolfatto, D. (2020)**
+"Is it Time to Raise the Inflation Target?"
+*Federal Reserve Bank of St Louis*, Remarks and commentary
+Cited in the presentation: "It seems more accurate to view the national debt less as a form of debt and more as a form of money in circulation."
+
+**Fullwiler, S. (2020)**
+"When the Interest Rate on the National Debt Is a Policy Variable (and 'Printing Money' Does Not Apply)"
+*Public Budgeting & Finance*, 40(3), 72-94
 DOI: 10.1111/pbaf.12262
 
 **Wray, L.R. (1998)**  
@@ -50,6 +55,23 @@ ISBN: 978-1840640397
 "The Role of the State and the Hierarchy of Money"  
 *Cambridge Journal of Economics*, 25(2), 149-163  
 DOI: 10.1093/cje/25.2.149
+
+### Quoted in Presentation
+
+**Galbraith, J.K. (1975)**
+*Money: Whence It Came, Where It Went*
+Boston: Houghton Mifflin
+ISBN: 978-0395198438
+Quoted: "The study of money, above all other fields in economics, is one in which complexity is used to disguise truth or to evade truth, not to reveal it…"
+
+**Samuelson, P.A. (1995)**
+Interview with Mark Blaug, in *Collected Scientific Papers of Paul A. Samuelson* and various interview compilations
+Quoted: "I think there is an element of truth in the view that the superstition that the budget must be balanced at all times is necessary…"
+
+**Keynes, J.M. (1936)**
+*The General Theory of Employment, Interest and Money*
+London: Macmillan
+Quoted in presentation: "The difficulty lies not so much in developing new ideas as in escaping from old ones."
 
 ---
 
@@ -105,10 +127,46 @@ https://www.dmo.gov.uk/
 
 ### National Audit Office
 
-**NAO**  
-*The Comptroller and Auditor General*  
-Information on the C&AG's role in authorizing Consolidated Fund issues  
+**NAO**
+*The Comptroller and Auditor General*
+Information on the C&AG's role in authorizing Consolidated Fund issues
 https://www.nao.org.uk/
+
+### National Savings & Investments
+
+**NS&I (2022)**
+*Annual Report and Accounts 2021–22*
+Cited: "When customers invest in NS&I, they are lending to the Government." Reports £207bn held by 25 million savers.
+https://nsandi-corporate.com/performance/annual-reports
+
+### Office for National Statistics
+
+**ONS**
+*UK Sectoral Balances*
+National Accounts data showing government, private sector, and rest-of-world balances as % of GDP. Used for sectoral balances chart (1987–2024) in the presentation.
+https://www.ons.gov.uk/economy/nationalaccounts
+
+**ONS (2022)**
+*UK Pension Fund Gilt Holdings*
+Reports approximately £390bn in gilt holdings by UK pension funds (16% of national debt).
+
+---
+
+## Data and Statistics Cited in Presentation
+
+### Austerity and Public Services
+
+The following sources inform the "Cost of the Lie" slide:
+
+- **NHS England** — Record waiting lists exceeding 7.7 million (via *The Guardian*)
+- **Local Government Association** — Council bankruptcies (Birmingham, Nottingham, Woking) and £2.8bn social care funding gap (via *BBC*)
+- **Department for Education** — 700,000 children in schools requiring urgent building repair
+- **Joseph Rowntree Foundation** — 4.2 million children in poverty (up from 3.6m in 2012)
+- **Mind** — 1.8 million people waiting for mental health treatment
+- **ONS** — UK infrastructure investment lowest in G7 for 30 years
+- **Climate Change Committee** — Green investment gap of £50bn per year
+- **Senedd Cymru** — Wales faces £900m real-terms budget cut
+- **Sky News (July 2022)** — Nursery capacity constraints undermining free childcare expansion
 
 ---
 
@@ -158,4 +216,4 @@ Various FOI requests to HM Treasury and the Bank of England regarding government
 
 ---
 
-*Last updated: 2024*
+*Last updated: February 2026*

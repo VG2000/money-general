@@ -94,6 +94,21 @@ This connects current spending to future tax revenues. Expenditure is credit adv
 
 ---
 
+## Simplified Summary (as presented in *The Money Myth*)
+
+The presentation distils the above into four steps for a general audience:
+
+1. **Parliament votes** to approve spending estimates via the Budget and Appropriation Acts
+2. **Spending is authorised** — departments receive legal authority to access the Consolidated Fund
+3. **Money is created** — the Bank of England credits accounts; new money enters the economy
+4. **Taxes collected later** drain some of that money back, reducing the money supply
+
+> "Every Budget, bank bailout, war and Covid relief scheme was provisioned by being voted into existence by MPs — not funded by prior tax collections."
+
+This simplified sequence maps to Steps 1–5 above but omits the intermediate institutional detail (C&AG verification, GBS transfers, Exchequer Sweep) for clarity.
+
+---
+
 ## Source
 
 Adapted from Berkeley, A., Considine, J., and Hail, S. (2025) "The Self-Financing State", *Journal of Economic Issues*, 59(3), Table 1.
