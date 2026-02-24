@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# PDF exports
+*.pdf
+
+# Temp
+*.tmp
+*.log
+.env
+.env.local
