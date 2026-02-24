@@ -2,24 +2,25 @@
 
 A 40-minute briefing for policymakers and parliamentarians on how money creation actually works in the UK economy.
 
+## ðŸŽ¯ [View the Presentation](https://vg2000.github.io/money-presentation/money-creation-uk.html)
+
 ## Overview
 
 This presentation explains:
 
-1. **What money actually is** — 97% of UK money is commercial bank deposits, not physical cash
-2. **How commercial banks create money** — through lending, not by intermediating deposits (debunking the "money multiplier" myth)
-3. **How government spending works** — the Consolidated Fund mechanism and why spending is operationally money creation
-4. **What taxation and debt issuance actually do** — taxation destroys money; debt issuance is a policy choice
-5. **Sectoral balances** — the accounting identity connecting all sectors
-6. **Real vs perceived constraints** — inflation and resources matter; "affordability" doesn't
+1. **What money actually is** â€” 97% of UK money is commercial bank deposits, not physical cash
+2. **How commercial banks create money** â€” through lending, not by intermediating deposits (debunking the "money multiplier" myth)
+3. **How government spending works** â€” the Consolidated Fund mechanism and why spending is operationally money creation
+4. **What taxation and debt issuance actually do** â€” taxation destroys money; debt issuance is a policy choice
+5. **Real vs perceived constraints** â€” inflation and resources matter; "affordability" doesn't
 
 ## Key Sources
 
 ### Primary Academic Sources
 
-- **Bank of England (2014)** — "[Money creation in the modern economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy)", *Quarterly Bulletin Q1 2014*
+- **Bank of England (2014)** â€” "[Money creation in the modern economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy)", *Quarterly Bulletin Q1 2014*
 
-- **Berkeley, Andrew, Ryan-Collins, Josh, Voldsgaard, Asker, Tye, Richard and Wilson, Neil (2024)** — "The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom", *Journal of Economic Issues*, 59(3), 852-880. Available at SSRN: https://ssrn.com/abstract=4890683
+- **Berkeley, A., Considine, J., and Hail, S. (2025)** â€” "The Self-Financing State: An Institutional Analysis of Government Expenditure, Revenue Collection and Debt Issuance Operations in the United Kingdom", *Journal of Economic Issues*, 59(3), 852-880
 
 ### Key UK Legislation
 
@@ -34,49 +35,65 @@ This presentation explains:
 
 | Key | Action |
 |-----|--------|
-| `→` `↓` `Space` | Next slide |
-| `←` `↑` | Previous slide |
+| `â†’` `â†“` `Space` | Next slide |
+| `â†` `â†‘` | Previous slide |
 | `S` | Speaker view (notes + timer) |
 | `O` | Overview mode |
 | `F` | Fullscreen |
 | `Esc` | Exit fullscreen/overview |
 
+### Speaker Notes
+
+Press `S` to open the speaker view in a new window. This shows:
+- Current slide
+- Next slide preview
+- Speaker notes
+- Timer
+
 ### Export to PDF
 
 1. Open the presentation
-2. Add `?print-pdf` to the URL
+2. Add `?print-pdf` to the URL (e.g., `money-creation-uk.html?print-pdf`)
 3. Press `Ctrl/Cmd + P` to print
 4. Select "Save as PDF"
 
 ## Repository Structure
 
 ```
-money-general/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── money-creation-uk.html
-├── appendix/
-│   ├── spending-accounting.md
-│   ├── taxation-accounting.md
-│   └── glossary.md
-└── sources/
-    └── bibliography.md
+sovereign-economics/
+â”œâ”€â”€ README.md                   # This file
+â”œâ”€â”€ LICENSE                     # MIT License
+â”œâ”€â”€ money-creation-uk.html      # The presentation
+â”œâ”€â”€ appendix/
+â”‚   â”œâ”€â”€ spending-accounting.md  # Table 1: Government spending transactions
+â”‚   â”œâ”€â”€ taxation-accounting.md  # Table 2: Taxation transactions
+â”‚   â””â”€â”€ glossary.md             # Key terms and definitions
+â””â”€â”€ sources/
+    â””â”€â”€ bibliography.md         # Full reference list
 ```
 
 ## Technical Details
 
-Built with [reveal.js](https://revealjs.com/) — a modern HTML presentation framework.
+Built with [reveal.js](https://revealjs.com/) â€” a modern HTML presentation framework.
 
-- **No build step required** — just open the HTML file
-- **No dependencies to install** — libraries load from CDN
-- **Mobile-friendly** — supports touch gestures
+- **No build step required** â€” just open the HTML file
+- **No dependencies to install** â€” libraries load from CDN
+- **Works offline** â€” after first load, browsers cache the CDN resources
+- **Mobile-friendly** â€” supports touch gestures
+
+## Contributing
+
+Corrections, improvements, and translations welcome. Please open an issue or pull request.
 
 ## License
 
 Content is provided under the [MIT License](LICENSE). Academic sources retain their original copyright.
 
+## Acknowledgements
+
+This presentation synthesises research from the Bank of England and academic economists studying UK public finance operations. Special thanks to the authors of "The Self-Financing State" for their detailed institutional analysis.
+
 ---
 
 *"The Government's banking arrangements... ensure that all expenditure authorized by Parliament can be settled."*
-— HM Treasury, FOI response 2020
+â€” HM Treasury, FOI response 2020
