@@ -107,6 +107,32 @@ The club can't "run out" of tickets. Nor can a currency-issuing government "run 
 
 ---
 
+## Simplified Summary (as presented in *The Money Myth*)
+
+The presentation illustrates the tax flow for a general audience as four stages:
+
+| Stage | Entity | Change | Description |
+|-------|--------|--------|-------------|
+| 1 | You (Taxpayer) | −£100 | Deposit lost from your bank account |
+| 2 | Your Bank | −£100 | Reserves transferred to HMRC |
+| 3 | HMRC → BoE | +£100 | Credited to government account |
+| 4 | Consolidated Fund | Offsets | Cancels prior spending — money destroyed |
+
+> "£100 of money has been destroyed. It no longer exists in the economy as a private sector asset."
+
+### Four Functions of Taxation (from the presentation)
+
+The presentation identifies four purposes taxes actually serve:
+
+1. **Control inflation** — remove money from circulation
+2. **Reduce inequality** — redistribute purchasing power
+3. **Shape behaviour** — discourage harmful activities (tobacco, carbon)
+4. **Give the currency value** — requiring taxes be paid in pounds creates demand for pounds
+
+None of these is "funding government spending."
+
+---
+
 ## Source
 
 Adapted from Berkeley, A., Considine, J., and Hail, S. (2025) "The Self-Financing State", *Journal of Economic Issues*, 59(3), Table 2.

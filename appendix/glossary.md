@@ -1,5 +1,24 @@
 # Glossary of Key Terms
 
+## Foundational Concepts
+
+### Fiat Currency
+A currency that has value by government decree (*fiat* is Latin for "it shall be"), not because it is backed by or convertible into a physical commodity such as gold. The pound sterling has been a fiat currency since the UK left the gold standard in 1931. All major currencies became fully fiat after the US ended Bretton Woods convertibility in 1971.
+
+### Gold Standard
+A monetary system in which the value of currency is directly linked to gold. The UK operated under a gold standard until 1931; the last global link (via the US dollar) was severed in 1971 when the Bretton Woods system ended.
+
+### Bretton Woods System
+The post-WWII international monetary system (1944–1971) under which currencies were pegged to the US dollar, itself convertible to gold at $35/oz. Its collapse ended any commodity backing for major currencies.
+
+### Currency Issuer vs. Currency User
+The fundamental distinction in public finance. The currency issuer (UK government via Parliament) creates money by spending and destroys it via taxation. Currency users (households, businesses, local councils) must earn or borrow before spending and can genuinely run out of money. Confusing these two produces the "household budget" fallacy.
+
+### Sectoral Balances
+An accounting identity: the government sector balance + private sector balance + rest-of-world balance = zero. A government deficit is identically equal to the non-government sector's surplus. If the government runs a surplus, the private sector must run a deficit of exactly the same amount.
+
+---
+
 ## Money Types
 
 ### Central Bank Money
@@ -25,6 +44,9 @@ Handles government borrowing and lending operations. Receives the net balance fr
 
 ### Contingencies Fund
 A fund (maximum Â£2 billion) for urgent expenditure when Parliament is not sitting. Must be repaid from subsequent Supply votes.
+
+### National Savings & Investments (NS&I)
+Government-backed savings provider. NS&I products (including premium bonds) are direct lending to the government — they form part of the national "debt." As of 2022, NS&I held approximately £207 billion from 25 million savers, representing roughly 8.5% of UK government debt.
 
 ### Debt Management Account (DMA)
 Operated by the Debt Management Office (DMO) for daily cash management operations.
@@ -102,6 +124,18 @@ The return of money to its issuer. For commercial banks, loan repayment destroys
 ### Hierarchy of Money
 The concept that different forms of money exist in a hierarchy of acceptability. Government money (backed by taxing power) sits at the top; commercial bank money is convertible into government money on demand.
 
+### National "Debt"
+The cumulative total of all previous government deficits — i.e., all government spending that was not taxed back. Held by the private sector as financial assets: gilt holdings by pension funds (~£390bn), NS&I savings (~£207bn), and other government securities. More accurately described as "the private sector's savings" than as a debt burden.
+
+### Deficit
+The amount by which government spending exceeds taxation in a given period. A government deficit creates a matching private sector surplus (see Sectoral Balances). The deficit adds net financial assets to the non-government sector.
+
+### Inflation (as spending constraint)
+The primary real constraint on government spending. Occurs when aggregate demand exceeds the economy's productive capacity — too much money chasing too few goods and services. Distinguished from the false constraint of "affordability" in monetary terms.
+
+### Productive Capacity
+The economy's real ability to supply goods and services: trained workers, physical materials, infrastructure, and supply chains. The true limit on what government can provision, as opposed to monetary affordability.
+
 ---
 
 ## Sources
@@ -111,3 +145,5 @@ Definitions derived from:
 - Berkeley et al. (2025) "The Self-Financing State"
 - HM Treasury Consolidated Fund documentation
 - Bank of England Sterling Monetary Framework documentation
+- NS&I Annual Report 2022
+- ONS National Accounts / Sectoral Balances data
