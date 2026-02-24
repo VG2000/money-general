@@ -81,7 +81,7 @@ Quoted in presentation: "The difficulty lies not so much in developing new ideas
 https://www.legislation.gov.uk/ukpga/Vict/29-30/39
 
 **Finance Act 1954**  
-Section 34(3) â€” "Growing produce of the Fund"  
+Section 34(3) – “Growing produce of the Fund”  
 https://www.legislation.gov.uk/ukpga/Eliz2/2-3/44
 
 **National Loans Act 1968**  
@@ -91,7 +91,7 @@ https://www.legislation.gov.uk/ukpga/1968/13
 https://www.legislation.gov.uk/ukpga/1998/11
 
 **Commissioners for Revenue and Customs Act 2005**  
-Section 44 â€” Payment of HMRC receipts into Consolidated Fund  
+Section 44 – Payment of HMRC receipts into Consolidated Fund  
 https://www.legislation.gov.uk/ukpga/2005/11
 
 **Financial Services and Markets Act 2000**  
