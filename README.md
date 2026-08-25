@@ -30,6 +30,30 @@ This presentation explains:
 - National Loans Act 1968
 - Bank of England Act 1998
 
+## Running Locally
+
+There is no build step and nothing to install. The presentation loads reveal.js and Chart.js from a CDN, so an internet connection is needed the first time you open it.
+
+Serve the repository root over HTTP:
+
+```bash
+python3 -m http.server 8080 --bind 127.0.0.1
+```
+
+Then open <http://127.0.0.1:8080/money-creation-uk.html>.
+
+Any static file server works equally well, for example `npx serve` or `php -S 127.0.0.1:8080`. If port 8080 is already in use, pick another one.
+
+To stop the server, press `Ctrl + C`, or if it is running in the background:
+
+```bash
+lsof -ti:8080 | xargs kill
+```
+
+### Why not just open the file?
+
+Opening `money-creation-uk.html` directly from the filesystem mostly works, but browsers block the cross-window messaging that reveal.js speaker view relies on over `file://`. Serving over HTTP keeps the `S` key working.
+
 ## Using the Presentation
 
 ### Navigation
@@ -77,7 +101,7 @@ money-general/
 
 Built with [reveal.js](https://revealjs.com/), a modern HTML presentation framework.
 
-- **No build step required** - just open the HTML file
+- **No build step required** - see [Running Locally](#running-locally)
 - **No dependencies to install** - libraries load from CDN
 - **Works offline** - after first load, browsers cache the CDN resources
 - **Mobile-friendly** - supports touch gestures
